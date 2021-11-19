@@ -237,7 +237,7 @@ HELP_LOGO = os.environ.get(
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/yotteno"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🔺"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🔱"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
