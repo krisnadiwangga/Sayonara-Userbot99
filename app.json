@@ -46,7 +46,7 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Masuk @spambotVegeta atau Buatlah sebuah grup private/public masukan @goku_isbot lalu ketik /id, Salin dan hapus id dibawah ini, Lalu tempel.",
+      "description": "Buatlah sebuah grup private/public masukan @MissRose_bot lalu ketik /id, Salin dan hapus id dibawah ini, Lalu tempel.",
       "value": "-1001689681361",
       "required": true
     },
