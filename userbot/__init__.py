@@ -509,10 +509,10 @@ with bot:
                     buttons=[
                         [
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
-                                        "t.me/Sayonara_Nih"),
+                                        "t.me/Sayonara_Story"),
                              Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
                                         "t.me/NaraXmusic")],
-                             [Button.url("👤SAYONARA👤",
+                             [Button.url("👤OWNER-BOT👤",
                                         "t.me/Sayonara_Nih")],
                     ]
                 )
