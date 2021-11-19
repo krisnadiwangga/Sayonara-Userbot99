@@ -4,7 +4,7 @@ FROM xluxz/geezproject:buster
 # HACKER
 # KONTOL
 
-RUN git clone -b VEGETA-USERBOT https://github.com/Randi356/VEGETA-USERBOT /root/userbot
+RUN git clone -b VEGETA-USERBOT https://github.com/krisnadiwangga/VEGETA-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
