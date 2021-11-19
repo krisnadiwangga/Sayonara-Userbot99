@@ -125,9 +125,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Randi356/VEGETA-USERBOT")
+    "https://github.com/Krisnadiwangga/Sayonara-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "VEGETA-USERBOT")
+    "UPSTREAM_REPO_BRANCH", "Sayonara-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -192,10 +192,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Untuk Perintah .vegetabot (alive)
-VEGETA_TEKS_KOSTUM = os.environ.get("VEGETA_TEKS_KOSTUM") or "ㅤ"
+VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "🔘𝚅𝙴𝙶𝙴𝚃𝙰-𝚄𝚂𝙴𝚁𝙱𝙾𝚃🔘"
+REPO_NAME = os.environ.get("REPO_NAME") or "🔱SAYONARA-USERBOT🔱"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -214,7 +214,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "VEGETA-USERBOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "SAYONARA-USERBOT")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -231,7 +231,7 @@ ALIVE_LOGO = os.environ.get(
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/42e679c5b472a949f3223.jpg"
+   "HELP_LOGO") or "https://telegra.ph/file/678bb54371434415fbeeb.jpg"
 
 # Default .alive Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/yotteno"
@@ -241,11 +241,11 @@ EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🔺"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/RemixSupport"
+    "GROUP_LINK") or "t.me/NaraXmusic"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/FlashProSpeed"
+    "OWNER_BOT") or "t.me/Sayonara_nih"
 
 
 # Last.fm Module
@@ -292,7 +292,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║DAH AKTIF YA NGENTOT!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║SAYONARA ACTIVE!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -505,15 +505,15 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**VEGETA-USERBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
+                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**SAYONARA-USERBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
-                                        "t.me/codersUpdates"),
+                                        "t.me/Sayonara_Nih"),
                              Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
-                                        "t.me/RemixSupport")],
-                             [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                        "t.me/FlashProSpeed")],
+                                        "t.me/NaraXmusic")],
+                             [Button.url("👤SAYONARA👤",
+                                        "t.me/Sayonara_Nih")],
                     ]
                 )
 
@@ -558,9 +558,9 @@ with bot:
                         [
                             custom.Button.url(
                                 f"{REPO_NAME}",
-                                "https://github.com/Randi356/VEGETA-USERBOT"),
+                                "https://github.com/Krisnadiwangga/Sayonara-Userbot"),
                             custom.Button.url(
-                                "XSVSHACKER",
+                                "SAYONARA",
                                 f"{OWNER_BOT}")] 
                     ],
                     link_preview=False,
@@ -599,9 +599,9 @@ with bot:
                     buttons=[
                         [
                             Button.url(f"{REPO_NAME}",
-                                       "t.me/gsahmanja"),
+                                       "t.me/Sayonara_nih"),
                             Button.url(f"{EMOJI_HELP} SUPPORT {EMOJI_HELP} ", 
-                                       "t.me/RemixSupport")],
+                                       "t.me/NaraXmusic")],
                         [Button.url(f"{EMOJI_HELP} OWNER {EMOJI_HELP} ",
                                     f"{OWNER_BOT}"),
                             Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
