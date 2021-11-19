@@ -44,7 +44,7 @@
   
   # Heroku
   
-  <a href="https://heroku.com/deploy?template=https://github.com/Randi356/VEGETA-USERBOT.git"><img src="https://img.shields.io/badge/DEPLOY%20VEGETA%20USERBOT%20DI%20HEROKU-red?style=flat&logo=Heroku" width="325" height="50.100" />
+  <a href="https://heroku.com/deploy?template=https://github.com/Krisnadiwangga/Sayonara-Userbot.git"><img src="https://img.shields.io/badge/DEPLOY%20VEGETA%20USERBOT%20DI%20HEROKU-red?style=flat&logo=Heroku" width="325" height="50.100" />
   
 
 <br>
@@ -69,4 +69,4 @@ TERIMAKASIH UNTUK😎
 *   [Sayonara](https://github.com/krisnadiwangga) - SAYONARA-USERBOT
  
 # Userbot🔥
-* - THANKS ALL
+* - JANGAN LUPA KLICK STAR 🤗
