@@ -224,7 +224,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`𝙴𝚁𝚁𝙾𝚁𝚁 𝙷𝙰𝙲𝙺𝙴𝚁`")
     await asyncio.sleep(1)
-    await alive.edit("🔥")
+    await alive.edit("☠")
     await asyncio.sleep(3)
     output = (
         f"**SAYONARA-USERBOT{REPO_NAME}SAYONARA-USERBOT** \n\n"
@@ -278,7 +278,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**      ➥ `7.1` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [GROUP]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -304,7 +304,7 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`𝕮𝖍𝖎𝖑𝖑𝖞 𝕻𝖎𝖓𝖌𝖎𝖓𝖌....`")
+    await alive.edit("`SAYONARA PINGING....`")
     await asyncio.sleep(1)
     await alive.edit("🔥")
     await asyncio.sleep(3)
