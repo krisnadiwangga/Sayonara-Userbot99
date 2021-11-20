@@ -97,11 +97,11 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("Assalamualaikum..")
+    await pong.edit("💀..")
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**𝗘𝗥𝗥𝗢𝗥𝗥 𝗛𝗔𝗖𝗞𝗘𝗥 𝗞𝗢𝗡𝗧𝗢𝗟𝗟𝗟𝗟𝗟𝗟!!**\n**𝗞𝗘𝗞𝗨𝗔𝗧𝗔𝗡 𝗠𝗘𝗠𝗘𝗞** : `%sms`\n**𝐃𝐔𝐑𝐀𝐒𝐈 𝐊𝐎𝐍𝐓𝐎𝐋𝐋𝐋𝐋𝐋𝐋** : `{uptime}🕛`" % (duration))
+    await pong.edit(f"**PONG🤓!!**\n**KEKUATAN KITA** : `%sms`\n**DURASI EWEE** : `{uptime}🕛`" % (duration))
 
 
 @register(outgoing=True, pattern="^Ping$")
@@ -207,7 +207,7 @@ async def redis(pong):
     await pong.edit("8===✊D")
     await pong.edit("8===✊D💦")
     await pong.edit("8====D💦💦")
-    await pong.edit("**CROOTTTT PINGGGG!**")
+    await pong.edit("** PINGGGG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**KONTOL!! **\n**NGENTOT** : `%sms`\n**Bot Uptime** : `{uptime}🌹`" % (duration)) 
@@ -225,7 +225,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**{ALIVE_NAME}**        \n"
                     f"**➾Kecepatan : ** '%sms'  \n"
-                    f"**➾Branch : ** 'Vegeta-Userbot` \n" % (duration))
+                    f"**➾Branch : ** 'Sayonara-Userbot` \n" % (duration))
 
 @register(outgoing=True, pattern="^.xping$")
 async def redis(pong):
@@ -243,7 +243,7 @@ async def redis(pong):
     await pong.edit("__Loading...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥𝕮𝖍𝖎𝖑𝖑𝖞-𝖀𝖘𝖊𝖗𝖇𝖔𝖙🔥**\n"
+    await pong.edit(f"**🔥SAYONARA-USERBOT🔥**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -264,7 +264,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥𝕮𝖍𝖎𝖑𝖑𝖞-𝖀𝖘𝖊𝖗𝖇𝖔𝖙🔥**\n\n"
+    await pong.edit(f"**🔥SAYONARA-USERBOT🔥**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -282,7 +282,7 @@ async def redis(pong):
     await pong.edit("**◕‿- PONG!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥𝕮𝖍𝖎𝖑𝖑𝖞-𝖀𝖘𝖊𝖗𝖇𝖔𝖙🔥**\n"
+    await pong.edit(f"**🔥SAYONARA-USERBOT🔥**\n"
                     f"❊ **Ping:** "
                     f"`%sms` \n"
                     f"❊ **Uptime:** "
@@ -357,7 +357,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** %sms  \n"
-        f"**➾Branch : ** Vegeta-Userbot \n" % (duration)) 
+        f"**➾Branch : ** Sayonara-Userbot \n" % (duration)) 
 
 @register(outgoing=True, pattern="^!uping$")
 async def pingme(pong):
