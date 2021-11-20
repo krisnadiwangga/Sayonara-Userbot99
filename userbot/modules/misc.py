@@ -1,11 +1,3 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-#
-# You can find misc modules, which dont fit in anything xD
-""" Userbot module for other small commands. """
-
 from random import randint
 from time import sleep
 from os import execl
@@ -14,7 +6,7 @@ import sys
 import os
 import io
 import sys
-from userbot import ALIVE_NAME, BOTLOG, BOTLOG_CHATID, CMD_HELP, OWNER_BOT, IG_ALIVE, REPO_NAME, GROUP_LINK, bot
+from userbot import ALIVE_NAME, UPSTREAM_REPO_URL, BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from userbot.events import register
 from userbot.utils import time_formatter
 import urllib
@@ -26,6 +18,8 @@ from PIL import Image
 
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+REPOLINK = str(
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/muhammadrizky16/Kyy-Userbot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -65,23 +59,23 @@ async def sleepybot(time):
 @register(outgoing=True, pattern="^.shutdown$")
 async def killdabot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Menonaktifkan VEGETA-USERBOT....`")
+    await event.edit("`Mematikan Sayonara-Userbot....`")
     await asyncio.sleep(7)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`VEGETA-USERBOT Telah Dinonaktifkan`")
+                                        "`Userbot Telah Dimatikan`")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting VEGETA-USERBOT...`")
+    await event.edit("`Restarting Sayonara-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
-                                        "`VEGETA-USERBOT Telah Di Restart`")
+                                        "`Userbot Telah Di Restart`")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -92,13 +86,9 @@ async def killdabot(event):
 @register(outgoing=True, pattern="^.readme$")
 async def reedme(e):
     await e.edit(
-        "Here's something for you to read:\n"
-        "\n[VEGETA-USERBOT Repo](https://github.com/Randi356/VEGETA-USERBOT/blob/VEGETA-USERBOT/README.md)"
+        "Here's Something for You to Read :\n"
+        "\n[✨ Sayonara-Userbot Repo](https://github.com/Krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
-        "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
-        "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
-        "\n[Video Tutorial - 576p](https://mega.nz/#!ErwCESbJ!1ZvYAKdTEfb6y1FnqqiLhHH9vZg4UB2QZNYL9fbQ9vs)"
-        "\n[Video Tutorial - 1080p](https://mega.nz/#!x3JVhYwR!u7Uj0nvD8_CyyARrdKrFqlZEBFTnSVEiqts36HBMr-o)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
 
@@ -120,7 +110,22 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n             [{REPO_NAME}](https://github.com/Randi356/VEGETA-USERBOT)\n╰✠╼━━━━━━❖━━━━━━━✠╯\n•PEMILIK         : [𝐎𝐖𝐍𝐄𝐑]({OWNER_BOT})\n•CHANNEL      : [𝐈𝐍𝐅𝐎](t.me/githubxsvshacker)\n•GROUP           : [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK})\n•INSTAGRAM  :  [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE})"
+        "**Hey**, I am using **✨SAYONARA-USERBOT✨** \n"
+        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/krisnadiwangga/Sayonara-Userbot)\n"
+        "➣ **Owner Bot       :** [sᴀʏᴏɴᴀʀᴀ [🇮🇩]](t.me/Sayonara_nih)\n"
+        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+        "➣ **Instagram       :** [ɪɴsᴛᴀɢʀᴀᴍ](instagram.com/KrisnaDiwangga)\n"
+        "➣ **Support           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/Sayonara_story)\n"
+        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+    )
+
+
+@register(outgoing=True, pattern=r"^\.string$")
+async def repo_is_here(wannasee):
+    """For .repo command, just returns the repo URL."""
+    await wannasee.edit(
+        f"➣ **GET STRING SESSION TELEGRAM :** [KLIK DISINI](https://replit.com/@rizkyhmdanii16/StringSession)\n"
     )
 
 
@@ -159,7 +164,7 @@ async def okgoogle(img):
         photo = io.BytesIO()
         await bot.download_media(message, photo)
     else:
-        await img.edit("`Harap Balas Di Gambar`")
+        await img.edit("`Harap Reply Di Gambar...`")
         return
 
     if photo:
@@ -267,28 +272,23 @@ async def scam(results, lim):
 
 
 CMD_HELP.update({
-    "random":
-    ">`.random <item1> <item2> ... <itemN>`\
-    \nUsage: Get a random item from the list of items.",
-    "sleep":
-    ">`.sleep <seconds>`\
-    \nUsage: Let yours snooze for a few seconds.",
-    "shutdown":
-    ">`.shutdown`\
-    \nUsage: Shutdown bot",
-    "repo":
-    ">`.repo`\
-    \nUsage: Github Repo of this bot",
-    "readme":
-    ">`.readme`\
-    \nUsage: Provide links to setup the userbot and it's modules.",
-    "repeat":
-    ">`.repeat <no> <text>`\
-    \nUsage: Repeats the text for a number of times. Don't confuse this with spam tho.",
-    "restart":
-    ">`.restart`\
-    \nUsage: Restarts the bot !!",
-    "raw":
-    ">`.raw`\
-    \nUsage: Get detailed JSON-like formatted data about replied message."
+    "random": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.random <item1> <item2> ... <itemN>`\
+    \n↳ : Dapatkan item acak dari daftar item.",
+    "sleep": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sleep <seconds>`\
+    \n↳ : `.sleep`\
+    \n  •  **Function : Biarkan Sayonara-Userbot tidur selama beberapa detik.",
+    "shutdown": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.shutdown`\
+    \n↳ : Mematikan bot",
+    "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
+    \n↳ : Menampilan link Repository Sayonara-Userbot.",
+    "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
+    \n↳: Menampilkan link String Sayonara-Userbot",
+    "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
+    \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
+    "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
+    \n↳ : Mengulangi teks untuk beberapa kali. Jangan bingung ini dengan spam tho.",
+    "restart": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.restart`\
+    \n↳ : Merestart bot",
+    "raw": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.raw`\
+    \n↳ : Dapatkan data berformat seperti JSON terperinci tentang pesan yang dibalas.",
 })
