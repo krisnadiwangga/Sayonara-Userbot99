@@ -9,7 +9,7 @@ RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/Randi356/VEGETA-USERBOT/VEGETA-USERBOT/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/krisnadiwangga/Sayonara-Userbot/Sayonara-Userbot/requirements.txt
 
 EXPOSE 80 443
 
