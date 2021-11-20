@@ -238,7 +238,7 @@ HELP_LOGO = os.environ.get(
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/krisnadiwangga"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "☢️"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✣"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
@@ -293,7 +293,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "```║SAYONARA-USERBOT TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
+    "BOTLOG_MSG") or "```║✣SAYONARA-USERBOT✣ TELAH AKTIF!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -450,7 +450,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "⏮️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    f"{EMOJI_HELP} ⛔ {EMOJI_HELP}", data="{}_close({})".format(prefix, modulo_page)
+                    f"{EMOJI_HELP} Close {EMOJI_HELP}", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "⏭️", data="{}_next({})".format(prefix, modulo_page)
@@ -608,7 +608,7 @@ with bot:
                             Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
                                    f"{IG_ALIVE}")],
                         [custom.Button.inline(
-                            f"{EMOJI_HELP} 𝗘𝗫𝗜𝗧 {EMOJI_HELP}", b"close")],
+                            f"{EMOJI_HELP} Close {EMOJI_HELP}", b"close")],
                        ]
                 )
 
