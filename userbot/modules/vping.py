@@ -97,11 +97,11 @@ async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("💀")
+    await pong.edit("👻")
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**PONG🤓!!**\n**KEKUATAN KITA** : `%sms`\n**DURASI EWEE** : `{uptime}🕛`" % (duration))
+    await pong.edit(f"**PONG🔥🔥!!**\n**KEKUATAN KITA** : `%sms`\n**DURASI EWEE** : `{uptime}🕛`" % (duration))
 
 
 @register(outgoing=True, pattern="^Ping$")
@@ -210,7 +210,7 @@ async def redis(pong):
     await pong.edit("** PINGGGG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**KONTOL!! **\n**NGENTOT** : `%sms`\n**Bot Uptime** : `{uptime}🌹`" % (duration)) 
+    await pong.edit(f"**KEKUATAN!! **\n**NGENTOT** : `%sms`\n**Bot Uptime** : `{uptime}🌹`" % (duration)) 
 
 @register(outgoing=True, pattern="^.sping$")
 async def redis(pong):
@@ -220,7 +220,7 @@ async def redis(pong):
     await pong.edit("**✲**")
     await pong.edit("**✲✲**")
     await pong.edit("**✲✲✲**")
-    await pong.edit("__DUAR__")
+    await pong.edit("__DOAR MEMEQ__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**{ALIVE_NAME}**        \n"
