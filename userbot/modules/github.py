@@ -40,7 +40,7 @@ async def github(event):
 
                 result = await request.json()
 
-                REPLY += "\nRepo:\n"
+                REPLY += "\nRepos:\n"
 
                 for nr in range(len(result)):
                     REPLY += f"[{result[nr].get('name', None)}]({result[nr].get('html_url', None)})\n"
