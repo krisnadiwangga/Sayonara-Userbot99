@@ -44,5 +44,5 @@ async def _(event):
         await event.delete()
 
 
-CMD_HELP.update({"logo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.wlogo <text>`"
+CMD_HELP.update({"wlogo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.wlogo <text>`"
                  "\n↳ : Hasilkan wlogo dari Teks atau Balas Ke gambar yang diberikan, untuk menulis teks Anda di atasnya. Atau Balas Ke File Font, Untuk menulis dengan font itu."})
