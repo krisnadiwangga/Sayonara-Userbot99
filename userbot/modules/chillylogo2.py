@@ -44,5 +44,5 @@ async def _(event):
         await event.delete()
 
 
-CMD_HELP.update({"logo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.logo2 <text>`"
+CMD_HELP.update({"logo2": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.logo2 <text>`"
                  "\n↳ : Hasilkan logo dari Teks atau Balas Ke gambar yang diberikan, untuk menulis teks Anda di atasnya. Atau Balas Ke File Font, Untuk menulis dengan font itu."})
