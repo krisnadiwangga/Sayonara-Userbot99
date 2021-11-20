@@ -28,7 +28,7 @@ async def typewriter(typew):
                      "\n**Permisi Aku mau nimbrung Kk..**")
 
 
-@register(outgoing=True, pattern='^.vegeta(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sayo(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**piki Peler☑️**")
@@ -55,7 +55,7 @@ async def typewriter(typew):
     await typew.edit("**Jeje,Mengintil☑️**")
     await typew.edit("**Jeje,Mengintil✅**")
     sleep(3)
-    await typew.edit("**CUMA RENDY YANG BENER!**")
+    await typew.edit("**CUMA SAYO YANG BENER!**")
 
 
 @register(outgoing=True, pattern='^.lahk(?: |$)(.*)')
@@ -96,14 +96,14 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`SUCCESSFULLY COMPELED`")
     sleep(1)
-    await typew.edit("`SUPPORT` @REMIXSUPPORT")
+    await typew.edit("`SUPPORT` @NARAXMUSIC")
 
 
 
 
 CMD_HELP.update({
-    "vegetabot":
-    "`.vegetabot`\
+    "sayobot":
+    "`.sayo`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \n\n`.lahk`\
