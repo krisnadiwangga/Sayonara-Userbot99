@@ -1,4 +1,3 @@
-    
 wheel
 aiohttp[speedups]>=3.5.4
 aiofiles
