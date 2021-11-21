@@ -301,37 +301,37 @@ async def amireallyalive(alive):
 
 
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
-async def amireallyalive(alive):
+async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`SAYONARA PINGING....!!! `")
-    await asyncio.sleep(1)
+    await alive.edit("__Sedang Memuat.__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat.__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat...__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat...__")
     await alive.edit("☠")
-    await asyncio.sleep(3)
+    await asyncio.sleep(2)
     output = (
-        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
-        f"**🌹SAYONARA-USERBOT🌹** \n"
-        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
-        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|•  `👑Majikan  :`{DEFAULTUSER} \n"
-        f"┣|• `🌹 Username :`@{user.username} \n"
-        f"┣|• `🌹 Telethon :`Ver {version.__version__} \n"
-        f"┣|• `🌹 Python   :`Ver {python_version()} \n"
-        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
-        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `Branch      :`SAYONARA-USERBOT \n"
-        f"┣|• `Bot Ver     :`7.1 \n"
-        f"┣|• `Modules     :`{len(modules)} Modules \n"
-        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
-        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
-        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰"" ")
+        f"┏━━━━━━━━━━━━━━━━━━━ \n"
+        f"┣  `Name     :` {DEFAULTUSER} \n"
+        f"┣  `Username :` @{user.username} \n"
+        f"┣  `Telethon :` Ver {version.__version__} \n"
+        f"┣  `Python   :` Ver {python_version()} \n"
+        f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"┣  `Bot Ver  :` {BOT_VER} \n"
+        f"┣  `Modules  :` {len(modules)} Modules \n"
+        f"┣  `GitHub   :` [sᴀʏᴏɴᴀʀᴀ](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
+        f"┣  `Support  :` [Channel](https://t.me/Sayonara_story) \n"
+        f"┣  `Owner    :` [sᴀʏᴏɴᴀʀᴀ](https://t.me/Sayonara_nih) \n"
+        f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
             await alive.delete()
             msg = await bot.send_file(alive.chat_id, logo, caption=output)
-            await asyncio.sleep(50)
+            await asyncio.sleep(500)
             await msg.delete()
         except BaseException:
             await alive.edit(
