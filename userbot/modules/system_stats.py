@@ -18,7 +18,7 @@ import sys
 import time
 from datetime import datetime
 import psutil
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, FLICKS_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, ALIVE_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot
 from userbot.events import register
 
 
@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"\n__**{FLICKS_TEKS_KUSTOM}**__\n"
+        f"\n__**{ALIVE_TEKS_KUSTOM}**__\n"
         f"**╭───────────────────**\n"
         f"**├[• 🌚 Owner** \n"
         f"├[•   : `{DEFAULTUSER}` \n"
@@ -274,7 +274,7 @@ async def amireallyalive(alive):
         f"➣ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"➣ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"🔧 : [REPO-FLICKS](https://github.com/fjgaming212/Flicks-Userbot)\n👥 : [FLICKS-TEAM](t.me/FlicksSupport)\n👤 : [OWNER](t.me/FJ_GAMING)\n"
+        f"🔧 : [REPO-FLICKS](http://github.com/krisnadiwangga/Sayonara-Userbot)\n👥 : [SAYO-TEAM](t.me/NaraXMusic)\n👤 : [OWNER](t.me/sayonara_nih)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -311,7 +311,7 @@ async def redis(alive):
     await alive.edit("**__𝐋𝐨𝐚𝐝𝐢𝐧𝐠...__**")
     await alive.edit("**__⚡𝐔𝐬𝐞𝐫𝐛𝐨𝐭⚡__**")
     await asyncio.sleep(2)
-    await alive.edit("☠️")
+    await alive.edit("⚡")
     await asyncio.sleep(3)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -322,7 +322,7 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `Github   :` [Userbot](https://github.com/fjgaming212/Flicks-Userbot) \n"
+        f"┣  `Github   :` [Userbot](http://github.com/krisnadiwangga/Sayonara-Userbot) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
