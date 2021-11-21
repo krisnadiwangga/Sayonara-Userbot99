@@ -195,7 +195,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 VEGETA_TEKS_KOSTUM = os.environ.get("SAYONARA_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "🌹SAYONARA-USERBOT🌹"
+REPO_NAME = os.environ.get("REPO_NAME") or "🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​🌹"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
