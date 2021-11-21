@@ -312,7 +312,7 @@ async def amireallyalive(alive):
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("☠")
-    await asyncio.sleep(2)
+    await asyncio.sleep(1)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"┣  `Name     :` {DEFAULTUSER} \n"
