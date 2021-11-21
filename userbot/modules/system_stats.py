@@ -1,4 +1,4 @@
-# System Stats VEGETA-USERBOT
+# System Stats SAYONARA-USERBOT
 
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**VEGETA-UBOT Versi:** \n "
+            "**☛**SAYONARA-UBOT Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -241,7 +241,7 @@ async def amireallyalive(alive):
         f"┣• `🔘 Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[🌹Sayonara-Userbot🌹]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/Randi356/VEGETA-USERBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
+        f"[🌹Sayonara-Userbot🌹]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -269,7 +269,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"       **🌹Sayonara-Userbot🌹** \n"
+        f"  **🌹SAYONARA-USERBOT🌹** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ **Owner**             ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
@@ -304,13 +304,13 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`Sayonara Pinging.... `")
+    await alive.edit("`SAYONARA PINGING....!!! `")
     await asyncio.sleep(1)
-    await alive.edit("🔥")
+    await alive.edit("☠")
     await asyncio.sleep(3)
     output = (
-        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-        f"**        🌹Sayonara-Userbot🌹** \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
+        f"**🌹SAYONARA-USERBOT🌹** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `👑Majikan  :`{DEFAULTUSER} \n"
@@ -319,7 +319,7 @@ async def amireallyalive(alive):
         f"┣|• `🌹 Python   :`Ver {python_version()} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `Branch      :`Sayonara-Userbot \n"
+        f"┣|• `Branch      :`SAYONARA-USERBOT \n"
         f"┣|• `Bot Ver     :`7.1 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
