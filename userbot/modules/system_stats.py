@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**SAYONARA-UBOT Versi:** \n "
+            "**☛**sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​ Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -304,9 +304,14 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`Sayonara Ping....`")
-    await asyncio.sleep(1)
-    await alive.edit("🔥")
+    await alive.edit("__Sedang Memuat.__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat.__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat...__")
+    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat...__")
+    await alive.edit("☠")
     await asyncio.sleep(3)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -317,9 +322,9 @@ async def amireallyalive(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Sayonara](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
-        f"┣  `Support  :` [Groups](https://t.me/NaraXmusic) \n"
-        f"┣  `Owner    :` [Sayonara](https://t.me/Sayonara_nih) \n"
+        f"┣  `GitHub   :` [sᴀʏᴏɴᴀʀᴀ](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
+        f"┣  `Support  :` [Channel](https://t.me/Sayonara_story) \n"
+        f"┣  `Owner    :` [sᴀʏᴏɴᴀʀᴀ](https://t.me/Sayonara_nih) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
