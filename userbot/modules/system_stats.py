@@ -218,19 +218,19 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:ren|rambot)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:sayo|rambot)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`𝙴𝚁𝚁𝙾𝚁𝚁 𝙷𝙰𝙲𝙺𝙴𝚁`")
+    await alive.edit("`PINGING..... `")
     await asyncio.sleep(1)
     await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
-        f"**𝕮𝖍𝖎𝖑𝖑𝖞-𝖀𝖘𝖊𝖗𝖇𝖔𝖙{REPO_NAME}𝕮𝖍𝖎𝖑𝖑𝖞-𝖀𝖘𝖊𝖗𝖇𝖔𝖙** \n\n"
+        f"**Sayonara-Userbot{REPO_NAME}Sayonara-Userbot** \n\n"
         f"\n__**{VEGETA_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"**🔘 HACKER** \n"
+        f"**🔘 OWNER** \n"
         f" ➥ `{DEFAULTUSER}` \n"
         f"**🔘 Username** \n"
         f" ➥ `@{user.username}` \n"
@@ -241,7 +241,7 @@ async def amireallyalive(alive):
         f"┣• `🔘 Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[🔘ᴠᴇɢᴇᴛᴀ-ᴜꜱᴇʀʙᴏᴛ🔘]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/Randi356/VEGETA-USERBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
+        f"[🌹Sayonara-Userbot🌹]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/Randi356/VEGETA-USERBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -269,16 +269,16 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"       **🌹𝕮𝖍𝖎𝖑𝖑𝖞-𝖀𝖘𝖊𝖗𝖇𝖔𝖙🌹** \n"
+        f"       **🌹Sayonara-Userbot🌹** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"❃ **Hacker**             ➥ `{DEFAULTUSER}` \n"
+        f"❃ **Owner**             ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
         f"❃ **Telethon**       ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**          ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**      ➥ `7.1` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/Randi356/VEGETA-USERBOT) || [𝗚𝗥𝗢𝗨𝗣]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -304,13 +304,13 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`𝕮𝖍𝖎𝖑𝖑𝖞 𝕻𝖎𝖓𝖌𝖎𝖓𝖌....`")
+    await alive.edit("`Sayonara Pinging.... `")
     await asyncio.sleep(1)
     await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-        f"**        🌹𝕮𝖍𝖎𝖑𝖑𝖞-𝖀𝖘𝖊𝖗𝖇𝖔𝖙🌹** \n"
+        f"**        🌹Sayonara-Userbot🌹** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `👑Majikan  :`{DEFAULTUSER} \n"
@@ -319,12 +319,12 @@ async def amireallyalive(alive):
         f"┣|• `🌹 Python   :`Ver {python_version()} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `Branch      :`VEGETA-USERBOT \n"
+        f"┣|• `Branch      :`Sayonara-Userbot \n"
         f"┣|• `Bot Ver     :`7.1 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[{REPO_NAME}](https://github.com/Randi356/VEGETA-USERBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
+        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
