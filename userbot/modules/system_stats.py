@@ -218,7 +218,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:ren|rambot)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:say|rambot)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -241,7 +241,7 @@ async def amireallyalive(alive):
         f"┣• `🔘 Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[🔥SAYONAR-USERBOT🔥]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
+        f"[🌹SAYONAR-USERBOT🌹]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -269,14 +269,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f" **🔱SAYONARA-USERBOT🔱** \n"
+        f" **🌹SAYONARA-USERBOT🌹** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"❃ **Hacker**             ➥ `{DEFAULTUSER}` \n"
+        f"❃ **Master**      ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
-        f"❃ **Telethon**       ➥ `Versi {version.__version__}` \n"
-        f"❃ **Python**          ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**      ➥ `7.1` \n"
-        f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
+        f"❃ **Telethon**    ➥ `Versi {version.__version__}` \n"
+        f"❃ **Python**      ➥ `Versi {python_version()}` \n"
+        f"❃ **Versi Bot**   ➥ `7.1` \n"
+        f"❃ **Modul**       ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
         f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [GROUP]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
@@ -306,7 +306,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`SAYONARA PINGING....`")
     await asyncio.sleep(1)
-    await alive.edit("🔥")
+    await alive.edit("☠")
     await asyncio.sleep(3)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
