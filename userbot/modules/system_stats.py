@@ -309,23 +309,16 @@ async def amireallyalive(alive):
     await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
-        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-        f"**🌹SAYONARA-USERBOT🌹** \n"
-        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
-        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `👑 Majikan  :`{DEFAULTUSER} \n"
-        f"┣|• `🌹 Username :`@{user.username} \n"
-        f"┣|• `🌹 Telethon :`Ver {version.__version__} \n"
-        f"┣|• `🌹 Python   :`Ver {python_version()} \n"
-        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
-        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `Branch      :`SAYONARA-USERBOT \n"
-        f"┣|• `Bot Ver     :`7.1 \n"
-        f"┣|• `Modules     :`{len(modules)} Modules \n"
-        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐑𝐄𝐏𝐎​](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
+        f"┏━━━━━━━━━━━━━━━━━━━ \n"
+        f"┣  `😎 Master   :` {DEFAULTUSER} \n"
+        f"┣  `📚 Username :` @{user.username} \n"
+        f"┣  `📑 Telethon :` Ver {version.__version__} \n"
+        f"┣  `🐍 Python   :` Ver {python_version()} \n"
+        f"┣  `📔 Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"┣  `⚡ Bot Ver  :` {BOT_VER} \n"
+        f"┣  `🥜 Modules  :` {len(modules)} Modules \n"
+        f"┣  `👩‍💻 Github   :` [Repository](https://github.com/krisnadiwangga/Sayonara-Userbot/edit/Sayonara-Userbot) \n"
+        f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
