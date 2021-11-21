@@ -259,21 +259,21 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:flickson)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:sayo)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**𝐅𝐥𝐢𝐜𝐤𝐬-𝐔𝐬𝐞𝐫𝐛𝐨𝐭**\n"
+        f"**𝐒𝐚𝐲𝐨𝐧𝐚𝐫𝐚​-𝐔𝐬𝐞𝐫𝐛𝐨𝐭**\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[Rizz](t.me/FJ_GAMING) \n"
+        f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[Sayonara](t.me/sayonara_nih) \n"
         f"➣ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10 \n"
         f"➣ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ  :`v.{version.__version__} \n"
         f"➣ 🐍 • `ᴘʏᴛʜᴏɴ.   :`v.{python_version()} \n"
         f"➣ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"➣ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"🔧 : [REPO-FLICKS](http://github.com/krisnadiwangga/Sayonara-Userbot)\n👥 : [SAYO-TEAM](t.me/NaraXMusic)\n👤 : [OWNER](t.me/sayonara_nih)\n"
+        f"🔧 : [REPO-SAYONARA](http://github.com/krisnadiwangga/Sayonara-Userbot)\n👥 : [SAYO-TEAM](t.me/NaraXMusic)\n👤 : [OWNER](t.me/sayonara_nih)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -374,7 +374,7 @@ CMD_HELP.update({
 })
 CMD_HELP.update({
     "alive":
-    "Cmd: `.alive` or `.flickson` or `.on` or `.falive`"
+    "Cmd: `.alive` or `.sayo` or `.on` or `.falive`"
     "\n↳ : To see whether your bot is working or not."
     "\n\nCmd: `.aliveu` <text>"
     "\n↳ : Changes the 'user' in alive to the text you want."
