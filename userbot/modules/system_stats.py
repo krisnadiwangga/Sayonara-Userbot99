@@ -313,7 +313,7 @@ async def amireallyalive(alive):
         f"**🌹SAYONARA-USERBOT🌹** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `👑Majikan  :`{DEFAULTUSER} \n"
+        f"┣|• `👑 Majikan  :`{DEFAULTUSER} \n"
         f"┣|• `🌹 Username :`@{user.username} \n"
         f"┣|• `🌹 Telethon :`Ver {version.__version__} \n"
         f"┣|• `🌹 Python   :`Ver {python_version()} \n"
@@ -324,7 +324,7 @@ async def amireallyalive(alive):
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
+        f"[𝐑𝐄𝐏𝐎​](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
