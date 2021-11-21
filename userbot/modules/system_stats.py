@@ -224,24 +224,24 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`PINGING..... `")
     await asyncio.sleep(1)
-    await alive.edit("🔥")
+    await alive.edit("☠")
     await asyncio.sleep(3)
     output = (
-        f"**Sayonara-Userbot{REPO_NAME}Sayonara-Userbot** \n\n"
+        f"**{REPO_NAME}** \n\n"
         f"\n__**{VEGETA_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"**🔘 OWNER** \n"
+        f"**❃ ᴏᴡɴᴇʀ​** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**🔘 Username** \n"
+        f"**❃ ᴜsᴇʀɴᴀᴍᴇ​** \n"
         f" ➥ `@{user.username}` \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        f"┣• `🔘 Telethon :`Ver {version.__version__} \n"
-        f"┣• `🔘 Python   :`Ver {python_version()} \n"
-        f"┣• `🔘 Bot Ver  :`7.1 \n"
-        f"┣• `🔘 Modules  :`{len(modules)} \n"
+        f"┣• `❃ Telethon :`Ver {version.__version__} \n"
+        f"┣• `❃ Python   :`Ver {python_version()} \n"
+        f"┣• `❃ Bot Ver  :`7.1 \n"
+        f"┣• `❃ Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[🌹SAYONARA-USERBOT🌹]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) \n"
+        f"[🔥]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [ɢʀᴏᴜᴘ​]({GROUP_LINK}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -278,7 +278,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**   ➥ `7.1` \n"
         f"❃ **Modul**       ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣]({GROUP_LINK}) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [ɢʀᴏᴜᴘ​]({GROUP_LINK}) || [ɪɴsᴛᴀɢʀᴀᴍ​]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -312,7 +312,7 @@ async def amireallyalive(alive):
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("☠")
-    await asyncio.sleep(1)
+    await asyncio.sleep(3)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"┣  `Name     :` {DEFAULTUSER} \n"
