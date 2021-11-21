@@ -304,28 +304,28 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__Sedang Memuat.__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat.__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat...__")
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat...__")
+    await alive.edit("`ᔑᗩᎩᝪᑎᗩᖇᗩ ᑭᏆᑎᏀᏆᑎᏀ​....`")
+    await asyncio.sleep(1)
     await alive.edit("☠")
     await asyncio.sleep(3)
     output = (
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣  `Name     :` {DEFAULTUSER} \n"
-        f"┣  `Username :` @{user.username} \n"
-        f"┣  `Telethon :` Ver {version.__version__} \n"
-        f"┣  `Python   :` Ver {python_version()} \n"
-        f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f"┣  `Bot Ver  :` {BOT_VER} \n"
-        f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [sᴀʏᴏɴᴀʀᴀ](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
-        f"┣  `Support  :` [Channel](https://t.me/Sayonara_story) \n"
-        f"┣  `Owner    :` [sᴀʏᴏɴᴀʀᴀ](https://t.me/Sayonara_nih) \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
+        f"**🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​🌹** \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
+        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
+        f"┣|• `👑Majikan  :`{DEFAULTUSER} \n"
+        f"┣|• `❃ Username :`@{user.username} \n"
+        f"┣|• `❃ Telethon :`Ver {version.__version__} \n"
+        f"┣|• `❃ Python   :`Ver {python_version()} \n"
+        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
+        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
+        f"┣|• `Branch      :`sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​ \n"
+        f"┣|• `Bot Ver     :`7.1 \n"
+        f"┣|• `Modules     :`{len(modules)} Modules \n"
+        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
+        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [ɢʀᴏᴜᴘ​]({GROUP_LINK}) || [ɪɴsᴛᴀɢʀᴀᴍ​]({IG_ALIVE}) \n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
