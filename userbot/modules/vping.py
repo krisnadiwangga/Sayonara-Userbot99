@@ -20,16 +20,16 @@ from userbot.events import register
 # LU TAMBAH MODULES KONTOL
 
 babik = [
-    "**Hadir ganteng** 🥵",
-    "**Hadir bro** 😎",
-    "**Hadir kak** 😉",
-    "**Hadir bang Rendy** 😁",
-    "**Hadir kak maap telat** 🥺",
+    "**Hadir Ganteng** 🥵",
+    "**Hadir Bang Sayo** 😎",
+    "**Hadir Kak** 😉",
+    "**Hadir Bang Sayo** 😁",
+    "**Hadir Kak Maap Telat** 🥺",
 ]
 
 pacar = [
     "**Kamu mau jadi pacar aku ga?** 💘",
-    "**mmk mending sama aku** 😎",
+    "**Memek mending sama aku** 😎",
     "**Hai ganteng** 🐷",
     "**Mau ga bang jadi pacar aku?** 😁",
     "**Mending pc aku bang** 🥺",
@@ -220,7 +220,7 @@ async def redis(pong):
     await pong.edit("**✲**")
     await pong.edit("**✲✲**")
     await pong.edit("**✲✲✲**")
-    await pong.edit("__DOAR MEMEQ__")
+    await pong.edit("__DUAR MEMEQ__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**{ALIVE_NAME}**        \n"
