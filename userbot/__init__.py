@@ -449,7 +449,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "⏮️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    f"{EMOJI_HELP} Close {EMOJI_HELP}", data="{}_close({})".format(prefix, modulo_page)
+                    f"{EMOJI_HELP} ᴄʟᴏsᴇ​ {EMOJI_HELP}", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "⏭️", data="{}_next({})".format(prefix, modulo_page)
@@ -599,15 +599,15 @@ with bot:
                     buttons=[
                         [
                             Button.url(f"{REPO_NAME}",
-                                       "t.me/Sayonara_nih"),
-                            Button.url(f"{EMOJI_HELP} SUPPORT {EMOJI_HELP} ", 
+                                       "https://github.com/krisnadiwangga/Sayonara-Userbot"),
+                            Button.url(f"{EMOJI_HELP} sᴜᴘᴘᴏʀᴛ​ {EMOJI_HELP} ", 
                                        "t.me/NaraXmusic")],
-                        [Button.url(f"{EMOJI_HELP} OWNER {EMOJI_HELP} ",
+                        [Button.url(f"{EMOJI_HELP} ᴏᴡɴᴇʀ​ {EMOJI_HELP} ",
                                     f"{OWNER_BOT}"),
-                            Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
+                            Button.url(f"{EMOJI_HELP} ɪɴsᴛᴀɢʀᴀᴍ​ {EMOJI_HELP} ",
                                    f"{IG_ALIVE}")],
                         [custom.Button.inline(
-                            f"{EMOJI_HELP} Close {EMOJI_HELP}", b"close")],
+                            f"{EMOJI_HELP} ᴄʟᴏsᴇ​ {EMOJI_HELP}", b"close")],
                        ]
                 )
 
