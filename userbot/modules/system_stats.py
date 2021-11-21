@@ -331,7 +331,7 @@ async def amireallyalive(alive):
             logo = ALIVE_LOGO
             await alive.delete()
             msg = await bot.send_file(alive.chat_id, logo, caption=output)
-            await asyncio.sleep(500)
+            await asyncio.sleep(50)
             await msg.delete()
         except BaseException:
             await alive.edit(
