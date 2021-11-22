@@ -65,7 +65,7 @@ async def get_readable_time(seconds: int) -> str:
 # CREDIT RANDI356
 # DONT'T REMOVE CREDIT FUCK DICK
 
-@register(incoming=True, from_users=DEVS, pattern=r"^.babik$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
 async def _(rendy):
     await rendy.reply(random.choice(babik))
 
