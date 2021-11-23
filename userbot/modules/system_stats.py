@@ -299,35 +299,36 @@ async def amireallyalive(alive):
         await asyncio.sleep(100)
         await alive.delete()
 
+
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`...SAYONARA ALIVE....`")
-    await asyncio.sleep(2)
-    await alive.edit("☠")
-    await asyncio.sleep(3
+    await alive.edit("`SAYONARA-PINGING....`")
+    await asyncio.sleep(1)
+    await alive.edit("🔥")
+    await asyncio.sleep(3)
     output = (
-        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
         f"**🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🌹** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭╼════════════════════╾╮ \n"
         f"│  ⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
         f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🤴 `•Owner :` {DEFAULTUSER} \n"
-        f"╟◈ 🔎 `•Username :` @{user.username} \n"
-        f"╟◈ ⚙️ `•Telethon :` v.{version.__version__} \n"
-        f"╟◈ 🐍 `•Python   :` v.{python_version()} \n"
-        f"╟◈ 🛠️ `•Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f"╟◈ 👾 `•Bot Ver  :` v{BOT_VER} \n"
-        f"╟◈ 📂 `•Plugins  :` {len(modules)} Plugin \n"
+        f"╟◈ 🤴 `Remix     :` {DEFAULTUSER} \n"
+        f"╟◈ 🔎 `Username :` @{user.username} \n"
+        f"╟◈ ⚙️ `Telethon :` v.{version.__version__} \n"
+        f"╟◈ 🐍 `Python   :` v.{python_version()} \n"
+        f"╟◈ 🛠️ `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"╟◈ 👾 `Bot Ver  :` v{BOT_VER} \n"
+        f"╟◈ 📂 `Plugins  :` {len(modules)} Plugin \n"
         f"┞╼════════════════════╾┤ \n"
         f"├◈ **{VEGETA_TEKS_KUSTOM}** \n"
         f"│                         \n"
         f"│   **USERBOT TELEGRAM**  \n"
         f"╰╼════════════════════╾╯ \n"
-        f"[License](https://github.com/krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/LICENSE) | [Support Chat](t.me/NaraXMusic)\n"
-        f"[Support Channel](t.me/Sayonara_story)")
+        f"[License](https://github.com/krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/LICENSE) | [Support Chat](t.me/NaraXmusic)\n"
+        f"[Support Channel](t.me/Sayonara_nih)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
