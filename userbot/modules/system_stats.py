@@ -318,10 +318,12 @@ async def amireallyalive(alive):
     await alive.edit("`...SAY⚡NARA....`")
     await alive.edit("`...SA⚡ONARA....`")
     await alive.edit("`...S⚡YONARA....`")
+    await alive.edit("`...⚡AYONARA....`")
     await alive.edit("`...SAYONARA ALIVE....`")
     await asyncio.sleep(3)
     await alive.edit("☠")
     await asyncio.sleep(3)
+    await get_readable_time((time.time() - StartTime))
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
         f"**🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🌹** \n"
