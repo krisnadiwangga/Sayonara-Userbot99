@@ -299,7 +299,6 @@ async def amireallyalive(alive):
         await asyncio.sleep(100)
         await alive.delete()
 
-
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
