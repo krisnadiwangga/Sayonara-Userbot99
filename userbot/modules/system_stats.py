@@ -304,26 +304,10 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`...SAYONARA....`")
-    await alive.edit("`...⚡AYONARA....`")
-    await alive.edit("`...S⚡YONARA....`")
-    await alive.edit("`...SA⚡ONARA....`")
-    await alive.edit("`...SAY⚡NARA....`")
-    await alive.edit("`...SAYO⚡ARA....`")
-    await alive.edit("`...SAYONA⚡A....`")
-    await alive.edit("`...SAYONAR⚡....`")
-    await alive.edit("`...SAYONA⚡A....`")
-    await alive.edit("`...SAYON⚡RA....`")
-    await alive.edit("`...SAYO⚡ARA....`")
-    await alive.edit("`...SAY⚡NARA....`")
-    await alive.edit("`...SA⚡ONARA....`")
-    await alive.edit("`...S⚡YONARA....`")
-    await alive.edit("`...⚡AYONARA....`")
     await alive.edit("`...SAYONARA ALIVE....`")
-    await asyncio.sleep(3)
+    await asyncio.sleep(2)
     await alive.edit("☠")
-    await asyncio.sleep(3)
-    await get_readable_time((time.time() - StartTime))
+    await asyncio.sleep(3
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
         f"**🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🌹** \n"
