@@ -313,18 +313,16 @@ async def amireallyalive(alive):
     await alive.edit("__Sedang⚡Memuat...__")
     await alive.edit("☠️")
     await asyncio.sleep(3)
-    output = (
+    output =(
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣  `Name     :` {DEFAULTUSER} \n"
+        f"┣  `Master   :` {DEFAULTUSER} \n"
         f"┣  `Username :` @{user.username} \n"
         f"┣  `Telethon :` Ver {version.__version__} \n"
         f"┣  `Python   :` Ver {python_version()} \n"
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
-        f"┣  `Support  :` [Channel](https://t.me/Sayonara_story) \n"
-        f"┣  `Owner    :` [sᴀʏᴏɴᴀʀᴀ 🇮🇩](https://t.me/Sayonara_nih) \n"
+        f"┣  `Github   :` [Userbot](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
