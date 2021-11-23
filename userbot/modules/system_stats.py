@@ -311,22 +311,29 @@ async def amireallyalive(alive):
     await alive.edit("__Sedang⚡Memuat...__")
     await alive.edit("__Sedang⚡Memuat..__")
     await alive.edit("__Sedang⚡Memuat...__")
-    await alive.edit("🔥")
+    await alive.edit("☠")
     await asyncio.sleep(3)
     output = (
-        f"╭✠╼━━━━━━━━━━━━━━━━━━━✠╮\n" 
-        f"┃✧ Name : {DEFAULTUSER} \n" 
-        f"┃✧ Username : @{user.username} \n" 
-        f"┃✧ Telethon : Ver {version.__version__} \n" 
-        f"┃✧ Python : Ver {python_version()} \n" 
-        f"┃✧ Branch : {UPSTREAM_REPO_BRANCH} \n" 
-        f"┃✧ Bot Ver : {BOT_VER} \n" 
-        f"┃✧ Modules : {len(modules)} Modules \n" 
-        f"┃✧ GitHub : [Repo](https://github.com/krisnadiwangga/Sayonara-Userbot) \n" 
-        f"┃✧ Groups : [groups](https://t.me/NaraXmusic) \n" 
-        f"┃✧ Owner : [『sᴀʏᴏɴᴀʀᴀ [🇮🇩]ɬ』](https://t.me/Sayonara_nih) \n" 
-        f"┃✧ channel : [channel](https://t.me/Sayonara_story) \n" 
-        f"╰✠╼━━━━━━━━━━━━━━━━━━━✠╯")
+        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
+        f"**🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🌹** \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
+        f"╭╼════════════════════╾╮ \n"
+        f"│  ⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
+        f"┟╼════════════════════╾┤ \n"
+        f"╟◈ 🤴 `•Owner :` {DEFAULTUSER} \n"
+        f"╟◈ 🔎 `•Username :` @{user.username} \n"
+        f"╟◈ ⚙️ `•Telethon :` v.{version.__version__} \n"
+        f"╟◈ 🐍 `•Python   :` v.{python_version()} \n"
+        f"╟◈ 🛠️ `•Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"╟◈ 👾 `•Bot Ver  :` v{BOT_VER} \n"
+        f"╟◈ 📂 `•Plugins  :` {len(modules)} Plugin \n"
+        f"┞╼════════════════════╾┤ \n"
+        f"├◈ **{VEGETA_TEKS_KUSTOM}** \n"
+        f"│                         \n"
+        f"│   **USERBOT TELEGRAM**  \n"
+        f"╰╼════════════════════╾╯ \n"
+        f"[License](https://github.com/krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/LICENSE) | [Support Chat](t.me/NaraXMusic)\n"
+        f"[Support Channel](t.me/Sayonara_story)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
