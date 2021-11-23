@@ -309,26 +309,26 @@ async def amireallyalive(alive):
     await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
-        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"**🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🌹** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
-        f"╭╼════════════════════╾╮ \n"
-        f"│  ⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
-        f"┟╼════════════════════╾┤ \n"
-        f"╟◈ 🤴 `Remix     :` {DEFAULTUSER} \n"
-        f"╟◈ 🔎 `Username :` @{user.username} \n"
-        f"╟◈ ⚙️ `Telethon :` v.{version.__version__} \n"
-        f"╟◈ 🐍 `Python   :` v.{python_version()} \n"
-        f"╟◈ 🛠️ `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f"╟◈ 👾 `Bot Ver  :` v{BOT_VER} \n"
-        f"╟◈ 📂 `Plugins  :` {len(modules)} Plugin \n"
-        f"┞╼════════════════════╾┤ \n"
-        f"├◈ **{VEGETA_TEKS_KUSTOM}** \n"
-        f"│                         \n"
-        f"│   **USERBOT TELEGRAM**  \n"
-        f"╰╼════════════════════╾╯ \n"
-        f"[License](https://github.com/krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/LICENSE) | [Support Chat](t.me/NaraXmusic)\n"
-        f"[Support Channel](t.me/Sayonara_nih)")
+        f"**╭╼════════════════════╾╮ \n"
+        f"**│  ⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
+        f"**┟╼════════════════════╾┤ \n"
+        f"**╟◈ 🤴 `Sayonara  :` {DEFAULTUSER} \n"
+        f"**╟◈ 🔎 `Username :` @{user.username} \n"
+        f"**╟◈ ⚙️ `Telethon :` v.{version.__version__} \n"
+        f"**╟◈ 🐍 `Python   :` v.{python_version()} \n"
+        f"**╟◈ 🛠️ `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"**╟◈ 👾 `Bot Ver  :` v{BOT_VER} \n"
+        f"**╟◈ 📂 `Plugins  :` {len(modules)} Plugin \n"
+        f"**┞╼════════════════════╾┤ \n"
+        f"**├◈ **{VEGETA_TEKS_KUSTOM}** \n"
+        f"**│                         \n"
+        f"**│   **USERBOT TELEGRAM**  \n"
+        f"**╰╼════════════════════╾╯ \n"
+        f"**[License](https://github.com/krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/LICENSE) | [Support Chat](t.me/NaraXmusic)\n"
+        f"**[Support Channel](t.me/Sayonara_nih)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
