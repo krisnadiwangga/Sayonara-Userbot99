@@ -98,7 +98,7 @@ async def redis(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("👻")
-    await asyncio.sleep(1)
+    await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**PONG🔥🔥!!**\n**KEKUATAN KITA** : `%sms`\n**DURASI EWEE** : `{uptime}🕛`" % (duration))
@@ -391,9 +391,32 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"⚡ **uptime:** "
                     f"`{uptime}` \n" % (duration))
+    
+@register(outgoing=True, pattern="^.pink$")
+async def pingme(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("🌸")
+    await pong.edit("__**BLACKPINK🌸**__")
+    await pong.edit("__**🌸LACKPINK**__")
+    await pong.edit("__**B🌸ACKPING**__")
+    await pong.edit("__**BL🌸CKPINK**__")
+    await pong.edit("__**BLAC🌸PINK**__")
+    await pong.edit("__**BLACK🌸INK**__")
+    await pong.edit("__**BLACKP🌸NK**__")
+    await pong.edit("__**BLACKPI🌸K**__")
+    await pong.edit("__**🌸BLACKPINK🌸**__")
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**🌸Sayonara-Userbot🌸**\n"
+                    f"🌸 **PINKING !!:** "
+                    f"`%sms` \n"
+                    f"🌸 **uptime:** "
+                    f"`{uptime}` \n" % (duration))
 
 CMD_HELP.update({
-    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings` or `.crot` or `.hacker` or `.xping` or `.vping` or `.punk` `!uping` `peler`\
+    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings` or `.crot` or `.hacker` or `.xping` or `.vping` or `.punk` `!uping` `peler` `.pink`\
          \n↳ : Untuk Menunjukkan Ping Bot Anda.\
          \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Speed` or `.sping` or `.sinyal` or `.bping`\
          \n↳ : Untuk Menunjukkan Kecepatan Jaringan Anda.\
