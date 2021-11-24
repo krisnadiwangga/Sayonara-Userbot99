@@ -1,5 +1,5 @@
 # Using Python Slim-Buster
-FROM xluxz/geezproject:buster
+FROM vckyouuu/geezproject:buster
 # Sayonara-Userbot
 # Sayonara
 
