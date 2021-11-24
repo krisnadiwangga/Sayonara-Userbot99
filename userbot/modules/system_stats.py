@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**{REPO_NAME}** \n\n"
-        f"\n__**{VEGETA_TEKS_KOSTUM}**__\n"
+        f"\n__**{SAYONARA_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
         f"**❃ ᴏᴡɴᴇʀ​** \n"
         f" ➥ `{DEFAULTUSER}` \n"
@@ -241,7 +241,7 @@ async def amireallyalive(alive):
         f"┣• `❃ Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[🔥]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [ɢʀᴏᴜᴘ​]({GROUP_LINK}) \n"
+        f"[{REPO_NAME}]||[ɢʀᴏᴜᴘ​]({GROUP_LINK}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -278,7 +278,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**   ➥ `7.1` \n"
         f"❃ **Modul**       ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [ɢʀᴏᴜᴘ​]({GROUP_LINK}) || [ɪɴsᴛᴀɢʀᴀᴍ​]({IG_ALIVE})\n"
+        f"[{REPO_NAME}]|| [ɢʀᴏᴜᴘ​]({GROUP_LINK})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -312,21 +312,21 @@ async def amireallyalive(alive):
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"**🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🌹** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
-        f"**╭╼════════════════════╾╮ \n"
-        f"**│  ⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
-        f"**┟╼════════════════════╾┤ \n"
-        f"**╟◈ 🤴 `Sayonara  :` {DEFAULTUSER} \n"
+        f"**╭╼════════════════════╾╮** \n"
+        f"**│⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
+        f"**┟╼════════════════════╾┤** \n"
+        f"**╟◈ 🤴 `Sayonara :` {DEFAULTUSER} \n"
         f"**╟◈ 🔎 `Username :` @{user.username} \n"
         f"**╟◈ ⚙️ `Telethon :` v.{version.__version__} \n"
         f"**╟◈ 🐍 `Python   :` v.{python_version()} \n"
         f"**╟◈ 🛠️ `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"**╟◈ 👾 `Bot Ver  :` v{BOT_VER} \n"
         f"**╟◈ 📂 `Plugins  :` {len(modules)} Plugin \n"
-        f"**┞╼════════════════════╾┤ \n"
-        f"**├◈ **{VEGETA_TEKS_KUSTOM}** \n"
+        f"**┞╼════════════════════╾┤** \n"
+        f"**├◈ **{SAYONARA_TEKS_KUSTOM}** \n"
         f"**│                         \n"
         f"**│   **USERBOT TELEGRAM**  \n"
-        f"**╰╼════════════════════╾╯ \n"
+        f"**╰╼════════════════════╾╯** \n"
         f"**[License](https://github.com/krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/LICENSE) | [Support Chat](t.me/NaraXmusic)\n"
         f"**[Support Channel](t.me/Sayonara_nih)")
     if ALIVE_LOGO:
