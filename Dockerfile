@@ -14,4 +14,4 @@ RUN pip3 install -r https://raw.githubusercontent.com/krisnadiwangga/Sayonara-Us
 EXPOSE 80 443
 
 # Finalization
-CMD ["python3","-m","userbot"]
+CMD ["python3", "-m", "userbot"]
