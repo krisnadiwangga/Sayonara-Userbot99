@@ -1,5 +1,5 @@
 # System Stats SAYONARA-USERBOT
-
+# by fix rendy
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
@@ -14,7 +14,7 @@ import time
 from datetime import datetime
 import psutil
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, VEGETA_TEKS_KOSTUM, IG_ALIVE, REPO_NAME, GROUP_LINK, StartTime, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, VEGETA_TEKS_KOSTUM, IG_ALIVE, REPO_NAME, UPSTREAM_REPO_BRANCH, StartTime, bot
 from userbot.events import register
 
 
@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ​ Versi:** \n "
+            "**☛**VEGETA-UBOT Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -218,30 +218,30 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:sayo|rambot)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:ren|rambot)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`PINGING..... `")
+    await alive.edit("`PINGING.....`")
     await asyncio.sleep(1)
-    await alive.edit("☠")
+    await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
-        f"**{REPO_NAME}** \n\n"
-        f"\n__**{SAYONARA_TEKS_KOSTUM}**__\n"
+        f"**𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃{REPO_NAME}𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃** \n\n"
+        f"\n__**{VEGETA_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"**❃ ᴏᴡɴᴇʀ​** \n"
+        f"**👑 owner** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**❃ ᴜsᴇʀɴᴀᴍᴇ​** \n"
+        f"**🤠 Username** \n"
         f" ➥ `@{user.username}` \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        f"┣• `❃ Telethon :`Ver {version.__version__} \n"
-        f"┣• `❃ Python   :`Ver {python_version()} \n"
-        f"┣• `❃ Bot Ver  :`7.1 \n"
-        f"┣• `❃ Modules  :`{len(modules)} \n"
+        f"┣• `😎 Telethon :`Ver {version.__version__} \n"
+        f"┣• `😍 Python   :`Ver {python_version()} \n"
+        f"┣• `🤖 Bot Ver  :`7.1 \n"
+        f"┣• `📕 Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[{REPO_NAME}]||[ɢʀᴏᴜᴘ​]({GROUP_LINK}) \n"
+        f"[🌹𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼🌹]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/Randi356/VEGETA-USERBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/RemixSupport) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -269,16 +269,16 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"  **🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🌹** \n"
+        f"       **🌹SAYONARA-USERBOT🌹** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"❃ **Owner**       ➥ `{DEFAULTUSER}` \n"
-        f"❃ **Username**    ➥ `@{user.username}` \n"
-        f"❃ **Telethon**    ➥ `Versi {version.__version__}` \n"
-        f"❃ **Python**      ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**   ➥ `7.1` \n"
-        f"❃ **Modul**       ➥ `{len(modules)}` \n\n"
+        f"❃ **👑Owner**             ➥ `{DEFAULTUSER}` \n"
+        f"❃ **🤠Username**    ➥ `@{user.username}` \n"
+        f"❃ **😊Telethon**       ➥ `Versi {version.__version__}` \n"
+        f"❃ **🐼Python**          ➥ `Versi {python_version()}` \n"
+        f"❃ **😎Versi Bot**      ➥ `7.1` \n"
+        f"❃ **📕Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[{REPO_NAME}]|| [ɢʀᴏᴜᴘ​]({GROUP_LINK})\n"
+        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣](t.me/naraxmusic) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -304,31 +304,27 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`SAYONARA-PINGING....`")
+    await alive.edit("`CONNECTING......`")
     await asyncio.sleep(1)
     await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
-        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
-        f"**🌹sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🌹** \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
+        f"**     🔥SAYONARA-USERBOT🔥** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"**╭╼════════════════════╾╮** \n"
-        f"**│⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
+        f"**│  ⇱ **SISTEM ALIVE USERBOT** ⇲ \n"
         f"**┟╼════════════════════╾┤** \n"
-        f"**╟◈ 🤴 `Sayonara :` {DEFAULTUSER} \n"
-        f"**╟◈ 🔎 `Username :` @{user.username} \n"
-        f"**╟◈ ⚙️ `Telethon :` v.{version.__version__} \n"
-        f"**╟◈ 🐍 `Python   :` v.{python_version()} \n"
-        f"**╟◈ 🛠️ `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f"**╟◈ 👾 `Bot Ver  :` v{BOT_VER} \n"
-        f"**╟◈ 📂 `Plugins  :` {len(modules)} Plugin \n"
-        f"**┞╼════════════════════╾┤** \n"
-        f"**├◈ **{SAYONARA_TEKS_KUSTOM}** \n"
-        f"**│                         \n"
-        f"**│   **USERBOT TELEGRAM**  \n"
-        f"**╰╼════════════════════╾╯** \n"
-        f"**[License](https://github.com/krisnadiwangga/Sayonara-Userbot/blob/Sayonara-Userbot/LICENSE) | [Support Chat](t.me/NaraXmusic)\n"
-        f"**[Support Channel](t.me/Sayonara_nih)")
+        f"**╟◈ 🤴 **Owner     :** {DEFAULTUSER} \n"
+        f"**╟◈ 🔎 **Username :** @{user.username} \n"
+        f"**╟◈ ⚙️ **Telethon :** v.{version.__version__} \n"
+        f"**╟◈ 🐍 **Python   :** v.{python_version()} \n"
+        f"**╟◈ 🛠️ **Branch   :** {UPSTREAM_REPO_BRANCH} \n"
+        f"**╟◈ 👾 **Bot Ver  :** v{BOT_VER} \n"
+        f"**╟◈ 📂 **Plugins  :** {len(modules)} Plugin \n"
+        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
+        f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣](t.me/naraxmusic) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
