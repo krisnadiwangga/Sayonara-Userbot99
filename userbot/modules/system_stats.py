@@ -305,6 +305,7 @@ async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`CONNECTING......`")
+    await asyncio.sleep(3)
     await alive.edit("💀")
     await asyncio.sleep(3)
     output = (
