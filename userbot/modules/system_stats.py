@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**VEGETA-UBOT Versi:** \n "
+            "**☛**sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -218,13 +218,13 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:ren|rambot)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:say|rambot)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`PINGING.....`")
     await asyncio.sleep(1)
-    await alive.edit("🔥")
+    await alive.edit("💀")
     await asyncio.sleep(3)
     output = (
         f"**𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃{REPO_NAME}𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃** \n\n"
@@ -241,7 +241,7 @@ async def amireallyalive(alive):
         f"┣• `📕 Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[🌹𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼🌹]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [Groups](t.me/NaraXmusic) \n"
+        f"[💀𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼💀]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [Groups](t.me/NaraXmusic) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
@@ -269,14 +269,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"       **🌹SAYONARA-USERBOT🌹** \n"
+        f" **💀sᴀʏᴏɴᴀʀᴀ - ᴜsᴇʀʙᴏᴛ💀** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"❃ **👑Owner**             ➥ `{DEFAULTUSER}` \n"
+        f"❃ **👑Owner**       ➥ `{DEFAULTUSER}` \n"
         f"❃ **🤠Username**    ➥ `@{user.username}` \n"
-        f"❃ **😊Telethon**       ➥ `Versi {version.__version__}` \n"
-        f"❃ **🐼Python**          ➥ `Versi {python_version()}` \n"
-        f"❃ **😎Versi Bot**      ➥ `7.1` \n"
-        f"❃ **📕Modul**           ➥ `{len(modules)}` \n\n"
+        f"❃ **😊Telethon**    ➥ `Versi {version.__version__}` \n"
+        f"❃ **🐼Python**      ➥ `Versi {python_version()}` \n"
+        f"❃ **😎Versi Bot**   ➥ `7.1` \n"
+        f"❃ **📕Modul**       ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
         f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣](t.me/naraxmusic) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
@@ -305,8 +305,7 @@ async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`CONNECTING......`")
-    await asyncio.sleep(1)
-    await alive.edit("🔥")
+    await alive.edit("💀")
     await asyncio.sleep(3)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
