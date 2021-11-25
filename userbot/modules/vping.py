@@ -19,7 +19,7 @@ from userbot.events import register
 # OWN BY RENDY
 # LU TAMBAH MODULES KONTOL
 
-babik = [
+absen = [
     "**Hadir Ganteng** 🥵",
     "**Hadir Bang Sayo** 😎",
     "**Hadir Kak** 😉",
@@ -61,8 +61,8 @@ async def get_readable_time(seconds: int) -> str:
 
     return up_time
 
-# OWN BY RENDY 
-# CREDIT RANDI356
+# OWN BY Sayonara
+# CREDIT Krisnadiwangga
 # DONT'T REMOVE CREDIT FUCK DICK
 
 @register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
