@@ -101,10 +101,11 @@ async def pingme(pong):
     await pong.edit("**✣✣✣**")
     await pong.edit("**✣✣✣✣**")
     await pong.edit("💀")
+    await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"卍════〠 **TEST PING** 〠════卍\n"
+        f"卍════〠 **TEST-PING** 〠════卍\n"
         f"✨ **Pɪɴɢᴇʀ :** "
         f"`%sms` \n"
         f"☂️ **Uᴘᴛɪᴍᴇ :** "
@@ -191,7 +192,7 @@ async def redis(pong):
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**HACKING USERBOT.... !!**\n**ANONYMOUS ONLINE** : `%sms`\n**UPTIMES SPEED** : `{uptime}🔥`" % (duration))
+    await pong.edit(f"**sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ.... !!**\n**SAYONARA ONLINE** : `%sms`\n**UPTIMES PREEM** : `{uptime}🔥`" % (duration))
 
 @register(outgoing=True, pattern="^.crot$")
 async def redis(pong):
@@ -252,7 +253,7 @@ async def redis(pong):
     await pong.edit("__Loading...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**💀SAYONARA-USERBOT💀**\n"
+    await pong.edit(f"**💀sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ💀**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
@@ -273,7 +274,7 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥SAYONARA-USERBOT🔥**\n\n"
+    await pong.edit(f"**🔥sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🔥**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -291,7 +292,7 @@ async def redis(pong):
     await pong.edit("**◕‿- PONG!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**🔥SAYONARA-USERBOT🔥**\n"
+    await pong.edit(f"**🔥sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ🔥**\n"
                     f"❊ **Ping:** "
                     f"`%sms` \n"
                     f"❊ **Uptime:** "
@@ -395,7 +396,7 @@ async def pingme(pong):
     await pong.edit("__**⚡PELER KONTOL⚡**__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡Sayonara-Userbot⚡**\n"
+    await pong.edit(f"**⚡sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ⚡**\n"
                     f"⚡ **Kontolll !!:** "
                     f"`%sms` \n"
                     f"⚡ **uptime:** "
@@ -414,14 +415,15 @@ async def pingme(pong):
     await pong.edit("__**LA💀IK**__")
     await pong.edit("__**LAK💀K**__")
     await pong.edit("__**LAKI💀**__")
-    await pong.edit("__**💀💀💀💀💀**__")
+    await pong.edit("__**DUAR**__")
+    await asyncio.sleep(1)
     await pong.edit("😈")
     await asyncio.sleep(2)
     await pong.edit("__**USERBOT-LAKIK**__")
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**💀Sayonara-Userbot💀**\n"
+    await pong.edit(f"**💀sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ💀**\n"
                     f"💀 **PINKING !!:** "
                     f"`%sms` \n"
                     f"💀 **uptime:** "
