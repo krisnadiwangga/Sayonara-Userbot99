@@ -227,22 +227,14 @@ async def amireallyalive(alive):
     await alive.edit("💀")
     await asyncio.sleep(3)
     output = (
-        f"**𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃{REPO_NAME}𝙲𝙷𝙸𝙻𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃** \n\n"
-        f"\n__**{VEGETA_TEKS_KOSTUM}**__\n"
-        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"**👑 owner** \n"
-        f" ➥ `{DEFAULTUSER}` \n"
-        f"**🤠 Username** \n"
-        f" ➥ `@{user.username}` \n"
-        f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        f"┣• `😎 Telethon :`Ver {version.__version__} \n"
-        f"┣• `😍 Python   :`Ver {python_version()} \n"
-        f"┣• `🤖 Bot Ver  :`7.1 \n"
-        f"┣• `📕 Modules  :`{len(modules)} \n"
-        f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[💀𝙸𝙽𝚂𝚃𝙰𝙶𝚁𝙰𝙼💀]({IG_ALIVE}) || [{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [Groups](t.me/NaraXmusic) \n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
+        f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Sayonara](t.me/Sayonara_nih) \n"
+        f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
+        f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
+        f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
+        f"✾ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
+        f"✾ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
+        f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬●")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
