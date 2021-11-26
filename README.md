@@ -1,8 +1,4 @@
-
-## 💀sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ💀
-
-
-
+<h1 align="center"><imgsrc="./resources/extras/geez.gif" width="35px">🔥SAYONARA-USERBOT🔥<imgsrc="./resources/extras/geez.gif" width="35px"></h1>
 </p>
 <p align="center">
     <a href="https://github.com/Krisnadiwangga/Sayonara-Userbot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
@@ -23,7 +19,7 @@
 
 <p align="center">
 
-### Sayonara-Userbot 🐍
+<h1 align="center"><img src="./resources/extras/geez.gif" width="35px">SAYONARA~USERBOT<img src="./resources/extras/geez.gif" width="35px"></h1>
 [<img src="https://telegra.ph/file/678bb54371434415fbeeb.jpg">](https://t.me/NaraXmusic) 
   
 #### JOIN YA KE SAYONARA SUPPORT!!
