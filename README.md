@@ -19,7 +19,6 @@
 
 <p align="center">
 
-<h1 align="center"><img src="./resources/extras/geez.gif" width="35px">SAYONARA~USERBOT<img src="./resources/extras/geez.gif" width="35px"></h1>
 [<img src="https://telegra.ph/file/678bb54371434415fbeeb.jpg">](https://t.me/NaraXmusic) 
   
 #### JOIN YA KE SAYONARA SUPPORT!!
