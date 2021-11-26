@@ -61,6 +61,7 @@ async def get_readable_time(seconds: int) -> str:
 
     return up_time
 
+
 # OWN BY Sayonara
 # CREDIT Krisnadiwangga
 # DONT'T REMOVE CREDIT FUCK DICK
@@ -69,12 +70,13 @@ async def get_readable_time(seconds: int) -> str:
 async def _(sayo):
     await sayo.reply(random.choice(absen))
 
+
 @register(incoming=True, from_users=DEVS, pattern=r"^.pacar$")
 async def _(sayo):
     await sayo.reply(random.choice(pacar))
 
-@register(outgoing=True, pattern="^.pings$")
 
+@register(outgoing=True, pattern="^.pings$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
