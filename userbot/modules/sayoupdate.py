@@ -100,7 +100,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`Sayonara-UBOT Berhasil Di Update`")
+                "`SAYONARA-UBOT Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
