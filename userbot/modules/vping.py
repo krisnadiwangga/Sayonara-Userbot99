@@ -66,12 +66,12 @@ async def get_readable_time(seconds: int) -> str:
 # DONT'T REMOVE CREDIT FUCK DICK
 
 @register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
-async def _(rendy):
-    await rendy.reply(random.choice(babik))
+async def _(sayo):
+    await sayo.reply(random.choice(absen))
 
 @register(incoming=True, from_users=DEVS, pattern=r"^.pacar$")
-async def _(kontol):
-    await kontol.reply(random.choice(pacar))
+async def _(sayo):
+    await sayo.reply(random.choice(pacar))
 
 @register(outgoing=True, pattern="^.pings$")
 
