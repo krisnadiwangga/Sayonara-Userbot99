@@ -35,7 +35,7 @@
 ### AMBIL STRING DI BAWAH INI:
 
 ##
-[![VEGETA-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@Randi356/StringSession-1#main.py)
+[![SAYONARA-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@Randi356/StringSession-1#main.py)
 ##
   
   # Heroku
@@ -62,7 +62,7 @@ TERIMAKASIH UNTUK😎
 
 *   [LANDAK RAMA](https://github.com/ramadhani892) - RAM-UBOT
 *   [RENDY](https://github.com/Randi356) - VEGETA-USERBOT / MAGISK
-*   [Sayonara](https://github.com/krisnadiwangga) - SAYONARA-USERBOT
+*   [SAYONARA](https://github.com/krisnadiwangga) - SAYONARA-USERBOT
  
 # Userbot🔥
 * - JANGAN LUPA KLICK STAR 🤗
