@@ -11,13 +11,10 @@ import time
 import redis
 
 from datetime import datetime
-
+from userbot import DEVS
 from speedtest import Speedtest
-from userbot import CMD_HELP, DEVS, StartTime, ALIVE_NAME, REPO_NAME
+from userbot import CMD_HELP, StartTime, ALIVE_NAME, REPO_NAME
 from userbot.events import register
-
-# OWN BY RENDY
-# LU TAMBAH MODULES KONTOL
 
 absen = [
     "**Hadir Ganteng** 🥵",
@@ -34,6 +31,7 @@ pacar = [
     "**Mau ga bang jadi pacar aku?** 😁",
     "**Mending pc aku bang** 🥺",
 ]
+
 
 async def get_readable_time(seconds: int) -> str:
     count = 0
