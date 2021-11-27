@@ -11,9 +11,14 @@ import time
 import redis
 
 from datetime import datetime
-from userbot import DEVS
 from speedtest import Speedtest
-from userbot import CMD_HELP, StartTime, ALIVE_NAME, REPO_NAME
+from userbot import (
+    CMD_HELP,
+    StartTime,
+    ALIVE_NAME,
+    REPO_NAME,
+    DEVS,
+)
 from userbot.events import register
 
 absen = [
