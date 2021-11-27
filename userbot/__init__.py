@@ -76,6 +76,7 @@ if CONFIG_CHECK:
 DEVS = (
     1663258664,
     1977978893,
+    1416529201,
 )
 
 # For Blacklist Group Support
