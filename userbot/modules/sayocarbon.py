@@ -79,7 +79,7 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [Sayonara 😈](https://t.me/Sayonara_nih/)\
+        caption="Created by [SAYONARA 😈](https://t.me/Sayonara_nih/)\
         \nGroup [SUPPORT](https://t.me/NaraXmusic/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
@@ -211,8 +211,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created By [XSVSHACKER 😈](https://t.me/FlashProSpeed/)\
-        \nGroup Support [Support](https://t.me/StaryWild/)",
+        caption="Created By [SAYONARA 😈](https://t.me/Sayonara_nih/)\
+        \nGroup Support [Support](https://t.me/NaraXmusic/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -277,8 +277,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [XSVSHACKER 😈](https://t.me/FlashProSpeed/),\
-        \nGroup Support [Group Support](https://t.me/StaryWild)",
+        caption="Created by [SAYONARA 😈](https://t.me/Sayonara_nih/),\
+        \nGroup Support [Group Support](https://t.me/naraXmusic)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -343,8 +343,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by [XSVSHACKER 😈](https://t.me/FlashProSpeed/),\
-        \nGroup Support [Support](https://t.me/StaryWild/)",
+        caption="Created by [SAYONARA 😈](https://t.me/Sayonara_jih/),\
+        \nGroup Support [Support](https://t.me/NaraXmusic/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
