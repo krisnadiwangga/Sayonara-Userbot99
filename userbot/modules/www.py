@@ -10,17 +10,19 @@
     Information Superhighway (yes, Internet). """
 
 import asyncio
+import random
 import time
-import redis
-
 from datetime import datetime
+
+import redis
 from speedtest import Speedtest
+
 from userbot import (
-    CMD_HELP,
-    StartTime,
     ALIVE_NAME,
-    REPO_NAME,
+    CMD_HELP,
     DEVS,
+    REPO_NAME,
+    StartTime,
 )
 from userbot.events import register
 
