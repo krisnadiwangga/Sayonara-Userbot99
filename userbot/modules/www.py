@@ -69,7 +69,7 @@ async def get_readable_time(seconds: int) -> str:
 # CREDIT Krisnadiwangga
 # DONT'T REMOVE CREDIT FUCK DICK
 
-@register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
+@register(incoming=True, from_users=1977978893, pattern=r"^.absen$")
 async def _(sayo):
     await sayo.reply(random.choice(absen))
 
