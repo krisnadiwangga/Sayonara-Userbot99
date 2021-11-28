@@ -3,6 +3,9 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License
 # OWN MY CODE RENDY
+# OWN BY Sayonara
+# CREDIT Krisnadiwangga
+# DONT'T REMOVE CREDIT FUCK DICK
 """ Userbot module containing commands related to the \
     Information Superhighway (yes, Internet). """
 
@@ -65,18 +68,14 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-# OWN BY Sayonara
-# CREDIT Krisnadiwangga
-# DONT'T REMOVE CREDIT FUCK DICK
-
-@register(incoming=True, from_users=1977978893, pattern=r"^.absen$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
 async def _(sayo):
     await sayo.reply(random.choice(absen))
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^.pacar$")
-async def _(sayo):
-    await sayo.reply(random.choice(pacar))
+async def _(asadekontol):
+    await asadekontol.reply(random.choice(pacar))
 
 
 @register(outgoing=True, pattern="^.pings$")
