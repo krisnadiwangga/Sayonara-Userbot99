@@ -80,7 +80,7 @@ async def gucast(event):
                 if chat not in DEVS:
                     await event.client.send.message(chat, msg)
                 done += 1
-                await FloodWaitError as e:
+            except FloodWaitError as e:
                 await asyncio.sleep(e.x)
                 done += 1
                 await event.client.send_message(chat, msg)
