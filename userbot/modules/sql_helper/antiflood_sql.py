@@ -3,7 +3,7 @@ try:
 except ImportError:
     raise AttributeError
 import threading
-from sqlalchemy import Column, Biginteger, String
+from sqlalchemy import Column, Integer, String
 
 DEF_COUNT = 0
 DEF_LIMIT = 0
@@ -13,9 +13,9 @@ DEF_OBJ = (None, DEF_COUNT, DEF_LIMIT)
 class FloodControl(BASE):
     __tablename__ = "antiflood"
     chat_id = Column(String(14), primary_key=True)
-    user_id = Column(Biginteger)
-    count = Column(Biginteger, default=DEF_COUNT)
-    limit = Column(Biginteger, default=DEF_LIMIT)
+    user_id = Column(Integer)
+    count = Column(Integer, default=DEF_COUNT)
+    limit = Column(Integer, default=DEF_LIMIT)
 
     def __init__(self, chat_id):
         self.chat_id = str(chat_id)  # ensure string
