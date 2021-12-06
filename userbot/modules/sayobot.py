@@ -33,33 +33,33 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**kyy Peler☑️**")
     await typew.edit("**kyy Peler✅**")
-    sleep(3)
+    sleep(2)
     await typew.edit("**Rendi Gilaa☑️**")
     await typew.edit("**Rendi Gilaa✅**")
-    sleep(3)
+    sleep(2)
     await typew.edit("**Skyzu Depresi☑️**")
     await typew.edit("**Skyzu Depresi✅**")
-    sleep(3)
+    sleep(2)
     await typew.edit("**Kitaro Gajelas☑️**")
-    await typew.edit("**Kitato Gajelas✅**")
-    sleep(3)
+    await typew.edit("**Kitaro Gajelas✅**")
+    sleep(2)
     await typew.edit("**Bagas goblok!☑️**")
     await typew.edit("**Bagas Goblok banget!✅**")
-    sleep(3)
+    sleep(2)
     await typew.edit("**Kyy² kang gabut!☑️**")
     await typew.edit("**Kyy² kang gabut!✅**")
-    sleep(3)
+    sleep(2)
     await typew.edit("**Tonic,MengRibet☑️**")
     await typew.edit("**Tonic,MengRibet✅**")
-    sleep(3)
+    sleep(2)
     await typew.edit("**Penggali,Mengintil☑️**")
     await typew.edit("**Penggali,Mengintil✅**")
-    sleep(3)
+    sleep(2)
     await typew.edit("**CUMA SAYO YANG BENER !**")
     sleep(3
 )
 
-@register(outgoing=True, pattern='^.lahk(?: |$)(.*)')
+@register(outgoing=True, pattern='^.lah(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Lahk, Lo tolol?`")
@@ -107,10 +107,10 @@ CMD_HELP.update({
     "`.sayo`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
-    \n\n`.lahk`\
+    \n\n`.lah`\
     \nUsage: hiks\
     \n\n`.gc`\
     \nUsage: support\
-    \n\n`.punten` ; `.vegeta`\
+    \n\n`.punten` ; `.sayonara`\
     \nUsage: misi."
 })
