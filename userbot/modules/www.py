@@ -102,11 +102,12 @@ async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**█▒▒▒▒▒▒▒▒▒**") 
-    await pong.edit("**███▒▒▒▒▒▒▒**") 
-    await pong.edit("**█████▒▒▒▒▒**") 
-    await pong.edit("**███████▒▒▒**") 
-    await pong.edit("**██████████**")
+    await pong.edit("**0% ▒▒▒▒▒▒▒▒▒▒**")
+    await pong.edit("**10%█▒▒▒▒▒▒▒▒▒**") 
+    await pong.edit("**30%███▒▒▒▒▒▒▒**") 
+    await pong.edit("**50%█████▒▒▒▒▒**") 
+    await pong.edit("**80%███████▒▒▒**") 
+    await pong.edit("**100%██████████**")
     await pong.edit("👻")
     await asyncio.sleep(3)
     end = datetime.now()
@@ -227,7 +228,7 @@ async def redis(pong):
     await pong.edit("** PINGGGG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**KEKUATAN!! **\n**NGENTOT** : `%sms`\n**Bot Uptime** : `{uptime}🌹`" % (duration)) 
+    await pong.edit(f"**KEKUATAN!! **\n**SEPONG** : `%sms`\n**Bot Uptime** : `{uptime}🌹`" % (duration)) 
 
 @register(outgoing=True, pattern="^.sping$")
 async def redis(pong):
