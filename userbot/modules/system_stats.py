@@ -296,13 +296,13 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat.__")
-    await alive.edit("__Sedang Memuat.__")
-    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat......__")
+    await alive.edit("__Sedang Memuat....__")
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
+    await alive.edit("__Sedang Memuat....__")
+    await alive.edit("__Sedang Memuat..__")
     await alive.edit("💀")
     await asyncio.sleep(2)
     output = (
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [ᴋʀɪsɴᴀ ᴅɪᴡᴀɴɢɢᴀ](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
+        f"┣  `GitHub   :` [Krisna D](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
         f"┣  `Support  :` [Groups](https://t.me/Naraxmusic) \n"
-        f"┣  `Owner    :` [sᴀʏᴏɴᴀʀᴀ](https://t.me/Sayonara_nih) \n"
+        f"┣  `Owner    :` [Sayonara](https://t.me/Sayonara_nih) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
