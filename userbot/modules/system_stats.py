@@ -297,7 +297,7 @@ async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("__Sedang Memuat..__")
-    await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat.__")
     await alive.edit("__Sedang Memuat.__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
