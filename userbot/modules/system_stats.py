@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Sayonara](t.me/Sayonara_nih) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[sᴀʏᴏɴᴀʀᴀ](t.me/Sayonara_nih) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -263,12 +263,12 @@ async def amireallyalive(alive):
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
         f" **💀sᴀʏᴏɴᴀʀᴀ - ᴜsᴇʀʙᴏᴛ💀** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"❃ **👑Owner**       ➥ `{DEFAULTUSER}` \n"
-        f"❃ **🤠Username**    ➥ `@{user.username}` \n"
-        f"❃ **😊Telethon**    ➥ `Versi {version.__version__}` \n"
-        f"❃ **🐼Python**      ➥ `Versi {python_version()}` \n"
-        f"❃ **😎Versi Bot**   ➥ `7.1` \n"
-        f"❃ **📕Modul**       ➥ `{len(modules)}` \n\n"
+        f"❃ **👑ᴏᴡɴᴇʀ**       ➥ `{DEFAULTUSER}` \n"
+        f"❃ **🤠ᴜsᴇʀɴᴀᴍᴇ**    ➥ `@{user.username}` \n"
+        f"❃ **😊ᴛᴇʟᴇᴛʜᴏɴ**    ➥ `Versi {version.__version__}` \n"
+        f"❃ **🐼ᴘʜʏᴛᴏɴ**      ➥ `Versi {python_version()}` \n"
+        f"❃ **😎ᴠᴇʀsɪ ʙᴏᴛ**   ➥ `7.1` \n"
+        f"❃ **📕ᴍᴏᴅᴜʟ**       ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
         f"[{REPO_NAME}](https://github.com/krisnadiwangga/Sayonara-Userbot) || [𝗚𝗥𝗢𝗨𝗣](t.me/naraxmusic) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
@@ -296,8 +296,8 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__Sedang Memuat.__")
     await alive.edit("__Sedang Memuat..__")
+    await alive.edit("__Sedang Memuat.__")
     await alive.edit("__Sedang Memuat.__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Sayonara](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
+        f"┣  `GitHub   :` [ᴋʀɪsɴᴀ ᴅɪᴡᴀɴɢɢᴀ](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
         f"┣  `Support  :` [Groups](https://t.me/Naraxmusic) \n"
-        f"┣  `Owner    :` [Sayonara](https://t.me/Sayonara_nih) \n"
+        f"┣  `Owner    :` [sᴀʏᴏɴᴀʀᴀ](https://t.me/Sayonara_nih) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
