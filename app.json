@@ -1,6 +1,6 @@
 {
-  "name": "SAYONARA-USERBOT",
-  "description": "[SAYONARA-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "GLEDEK-USERBOT",
+  "description": "[GLEDEK-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/07aa50bd3ab3a1442f1ed.jpg",
   "keywords": [
     "telegram",
@@ -10,7 +10,7 @@
     "productivity"
   ],
   "repository": "https://github.com/Krisnadiwangga/Sayonara-Userbot.",
-  "telegram": "https://t.me/Sayonara_nih",
+  "telegram": "https://t.me/hfrns23",
   "success_url": "https://t.me/gsahmanja",
   "stack": "container",
   "env": {
@@ -83,7 +83,7 @@
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
-      "value": "Sayonara-Userbot",
+      "value": "GLEDEK-USERBOT",
       "required": true
     },
     "S_PACK_NAME": {
