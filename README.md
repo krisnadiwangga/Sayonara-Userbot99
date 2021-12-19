@@ -19,7 +19,7 @@
 
 <p align="center">
 
-[<img src="https://telegra.ph/file/07aa50bd3ab3a1442f1ed.jpg">](https://t.me/NaraXmusic) 
+[<img src="https://telegra.ph/file/e5d4da833c5f47c1682bb.jpg">](https://t.me/NaraXmusic) 
   
 #### JOIN YA KE SAYONARA SUPPORT!!
 
