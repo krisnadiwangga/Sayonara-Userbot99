@@ -34,8 +34,8 @@
 ##
   
   # Heroku
-  
-  <a href="https://heroku.com/deploy?template=https://github.com/Krisnadiwangga/Sayonara-Deploy/"><img src="https://img.shields.io/badge/DEPLOY%20SAYONARA%20USERBOT%20DI%20HEROKU-red?style=flat&logo=Heroku" width="325" height="50.100" />
+  <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku :</h3>
+  <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/krisnadiwangga/Sayonara-Deploy/"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="150" height="30.00" /></a></p>
   
 
 <br>
