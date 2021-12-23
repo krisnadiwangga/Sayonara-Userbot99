@@ -43,5 +43,5 @@ async def yardim(event):
             )
     except Exception:
         return await event.edit(
-            "Anda tidak dapat Menggunakan Perintah .xhelp, Bisa Jadi Grup Ini tidak Mensupport nya (Mungkin Anda Belum Menghidupakan Inline Mode Dan Inline Location Data)\nGunakan Perintah `.inlineon` untuk menyalakan inline"
+            "`Anda tidak dapat Menggunakan Perintah .xhelp, Bisa Jadi Grup Ini tidak Mensupport nya (Mungkin Anda Belum Menghidupakan Inline Mode Dan Inline Location Data)\n`"
         )
