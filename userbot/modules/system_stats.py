@@ -338,6 +338,87 @@ async def redis(alive):
         await alive.delete()
 
 
+@register(outgoing=True, pattern=r"^\.(?:boost|fast)\s?(.)?")
+async def amireallyalive(alive):
+    user = await bot.get_me()
+    await get_readable_time((time.time() - StartTime))
+    await alive.edit("**P**")
+    await alive.edit("**Pr**")
+    await alive.edit("**Pro**")
+    await alive.edit("**Pros**")
+    await alive.edit("**Pross**")
+    await alive.edit("**Prossing**")
+    await alive.edit("**Prossing** **B**")
+    await alive.edit("**Prossing** **Bo**")
+    await alive.edit("**Prossing** **Boo**")
+    await alive.edit("**Prossing** **Boos**")
+    await alive.edit("**Prossing** **Boost**")
+    await alive.edit("**Prossing** **Boostin**")
+    await alive.edit("**Prossing** **Boosting**")
+    await asyncio.sleep(2)
+    await alive.edit("**Prossing Boosting** **V**")
+    await alive.edit("**Prossing Boosting** **Ve**")
+    await alive.edit("**Prossing Boosting** **Veg**")
+    await alive.edit("**Prossing Boosting** **Veget**")
+    await alive.edit("**Prossing Boosting** **Vegeta**")
+    await asyncio.sleep(2)
+    await alive.edit("**Proses Boosting** **Vegeta U**")
+    await alive.edit("**Proses Boosting** **Vegeta Us**")
+    await alive.edit("**Proses Boosting** **Vegeta Use**")
+    await alive.edit("**Proses Boosting** **Vegeta User**")
+    await alive.edit("**Proses Boosting** **Vegeta Userb**")
+    await alive.edit("**Proses Boosting** **Vegeta Userbo**")
+    await alive.edit("**Proses Boosting** **Vegeta Userbot**")
+    await asyncio.sleep(2)
+    await alive.edit("8✊===D")
+    await alive.edit("8=✊==D")
+    await alive.edit("8==✊=D")
+    await alive.edit("8===✊D")
+    await alive.edit("8==✊=D")
+    await alive.edit("8=✊==D")
+    await alive.edit("8✊===D")
+    await alive.edit("8=✊==D")
+    await alive.edit("8==✊=D")
+    await alive.edit("8===✊D")
+    await alive.edit("8==✊=D")
+    await alive.edit("8=✊==D")
+    await alive.edit("8✊===D")
+    await alive.edit("8=✊==D")
+    await alive.edit("8==✊=D")
+    await alive.edit("8===✊D")
+    await alive.edit("8==✊=D")
+    await alive.edit("8=✊==D")
+    await alive.edit("8✊===D")
+    await asyncio.sleep(1)
+    output = (
+        f"**🐼Sayonara Userbot is actived!😎** \n\n"
+        f"┣❏😎 **Master**: {DEFAULTUSER} \n"
+        f"┣❏🧐 **Username**: **@{user.username}** \n"
+        f"┣❏🐍 **Python**:  Versi {python_version()} \n"
+        f"┣❏🤖 **Bot Versi**: {BOT_VER} \n"
+        f"┣❏📂 **Plugins**: {len(modules)} Plugins \n"
+        f"┣❏🔮 **Telethon**: Versi {version.__version__} \n\n"
+        f"📍 REPO [VEGETA USERBOT](https://github.com/krisnadiwangga/Sayonara-Userbot)\n")
+    if ALIVE_LOGO:
+        try:
+            logo = ALIVE_LOGO
+            await alive.delete()
+            msg = await bot.send_file(alive.chat_id, logo, caption=output)
+            await asyncio.sleep(1)
+            await msg.delete()
+        except BaseException:
+            await alive.edit(
+                output + "\n\n *`Logo Yang Disediakan Tidak Valid."
+                "\nPastikan Tautan Yang Anda Gunakan Valid`"
+            )
+            await asyncio.sleep(1)
+            await alive.delete()
+    else:
+        await alive.edit(output)
+        await asyncio.sleep(1)
+        await alive.delete()
+
+
 @register(outgoing=True, pattern=r"^\.aliveu")
 async def amireallyaliveuser(username):
     message = username.text
