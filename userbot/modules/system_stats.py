@@ -393,21 +393,23 @@ async def amireallyalive(alive):
     await alive.edit("8=✊==D")
     await alive.edit("8✊===D")
     await asyncio.sleep(1)
+    await alive.edit("❄")
+    await asyncio.sleep(3)
     output = (
-        f"**🐼Sayonara Userbot is actived!😎** \n\n"
+        f"**🐥Sayonara Userbot is actived!🐥** \n\n"
         f"┣❏😎 **Master**: {DEFAULTUSER} \n"
         f"┣❏🧐 **Username**: **@{user.username}** \n"
         f"┣❏🐍 **Python**:  Versi {python_version()} \n"
         f"┣❏🤖 **Bot Versi**: {BOT_VER} \n"
         f"┣❏📂 **Plugins**: {len(modules)} Plugins \n"
         f"┣❏🔮 **Telethon**: Versi {version.__version__} \n\n"
-        f"📍 REPO [VEGETA USERBOT](https://github.com/krisnadiwangga/Sayonara-Userbot)\n")
+        f"📍 REPO [sᴀʏᴏɴᴀʀᴀ - ᴜsᴇʀʙᴏᴛ](https://github.com/krisnadiwangga/Sayonara-Userbot)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
             await alive.delete()
             msg = await bot.send_file(alive.chat_id, logo, caption=output)
-            await asyncio.sleep(1)
+            await asyncio.sleep(50)
             await msg.delete()
         except BaseException:
             await alive.edit(
