@@ -196,6 +196,7 @@ async def dyno_usage(dyno):
                 f"╚══════━━━━━━━══════╝ \n"
                 f"➠ **OWNER**  : {ALIVE_NAME} \n"
                 f"➠ **REPO** : [Sayonara-Userbot](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
+                f"➠ **DEVELOPER** : [sᴀʏᴏɴᴀʀᴀ​](https://t.me/sayonara_nih) \n"
                )
             await asyncio.sleep(5)
             await event.delete()
