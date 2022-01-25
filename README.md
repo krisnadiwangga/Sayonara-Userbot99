@@ -12,7 +12,7 @@
 
 
 ![VIEWS](https://komarev.com/ghpvc/?username=Krisnadiwangga)
-<a href="https://t.me/NaraXmusic"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
+<a href="https://t.me/SayonaraSupport"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
   [![GitHub issues](https://img.shields.io/github/issues/Krisnadiwangga/Sayonara-Userbot?&style=plastic&logo=github)](https://github.com/Krisnadiwangga/Sayonara-Userbot/issues)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Krisnadiwangga/Sayonara-Userbot?&style=plastic&logo=github)](https://github.com/Krisnadiwangga/Sayonara-Userbot/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/Randi356/VEGETA-USERBOT?&style=plastic&logo=github)](https://GitHub.com/Krisnadiwangga/Sayonara-Userbot/graphs/contributors/)
@@ -23,8 +23,8 @@
   
 #### JOIN YA KE SAYONARA SUPPORT!!
 
-<a href="https://t.me/NaraXmusic"><img src="https://img.shields.io/badge/Channel%20SAYONARA%20SUPPORT-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/Sayonara_Story"><img src="https://img.shields.io/badge/Join-Sayonara%20Story-purple.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/SayonaraSupport"><img src="https://img.shields.io/badge/Channel%20SAYONARA%20SUPPORT-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/SayonaraUpdate"><img src="https://img.shields.io/badge/Join-SAYONARA%20UPDATE-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 ### AMBIL STRING DI BAWAH INI:
@@ -60,4 +60,4 @@ TERIMAKASIH UNTUK😎
 *   [SAYONARA](https://github.com/krisnadiwangga) - SAYONARA-USERBOT
  
 # Userbot🔥
-* - JANGAN LUPA KLICK STAR 🤗
+* - JANGAN LUPA KLICK STARS 🤗
