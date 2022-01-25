@@ -242,7 +242,7 @@ GROUP_LINK = os.environ.get(
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/Sayonara_nih"
+    "OWNER_BOT") or "t.me/Sayonara_v2"
 
 
 # Last.fm Module
@@ -506,11 +506,11 @@ with bot:
                     buttons=[
                         [
                              Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
-                                        "t.me/Sayonara_Story"),
+                                        "t.me/SayonaraUpdate"),
                              Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
-                                        "t.me/NaraXmusic")],
+                                        "t.me/SayonaraUpdate")],
                              [Button.url("👤OWNER-BOT👤",
-                                        "t.me/Sayonara_Nih")],
+                                        "t.me/Sayonara_v2")],
                     ]
                 )
 
