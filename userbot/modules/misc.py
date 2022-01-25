@@ -113,10 +113,10 @@ async def repo_is_here(wannasee):
         "**Hey**, I am using **✨sᴀʏᴏɴᴀʀᴀ-ᴜsᴇʀʙᴏᴛ✨** \n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
         "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/krisnadiwangga/Sayonara-Userbot)\n"
-        "➣ **Owner Bot       :** [sᴀʏᴏɴᴀʀᴀ [🇮🇩]](t.me/Sayonara_nih)\n"
+        "➣ **Owner Bot       :** [sᴀʏᴏɴᴀʀᴀ [🇮🇩]](t.me/Sayonara_v2)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Instagram       :** [ɪɴsᴛᴀɢʀᴀᴍ](instagram.com/KrisnaDiwangga)\n"
-        "➣ **Support           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/Sayonara_story)\n"
+        "➣ **Instagram       :** [ɪɴsᴛᴀɢʀᴀᴍ](instagram.com/KrisnaDiwangga03)\n"
+        "➣ **Support           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/SayonaraUpdate)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
     )
 
