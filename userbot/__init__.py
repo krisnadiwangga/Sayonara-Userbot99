@@ -75,6 +75,7 @@ if CONFIG_CHECK:
 # KALO NGEFORK ID DEVS NYA GA USAH DI HAPUS YA GOBLOK 😡
 DEVS = (
     5032617939,
+    1840808292,
 )
 
 # For Blacklist Group Support
