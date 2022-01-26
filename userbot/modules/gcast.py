@@ -30,6 +30,7 @@ GCAST_BLACKLIST = [
     -1001273141346,  # Remix Support Vegeta
     -1001350427774,  # NaraxMusic
     -1001578091827,  # Prime Support
+    -1001380293847,  # NastySupport
 ]
 
 
