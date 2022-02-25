@@ -55,9 +55,9 @@ await typew.edit("**hello.**")
 ## Credit
 TERIMAKASIH UNTUK😎
 
-*   [LANDAK RAMA](https://github.com/ramadhani892) - RAM-UBOT
-*   [RENDY](https://github.com/Randi356) - VEGETA-USERBOT / MAGISK
-*   [SAYONARA](https://github.com/krisnadiwangga) - SAYONARA-USERBOT
+*   [LANDAK RAMA](https://github.com/ramadhani892/RAM-UBOT) - RAM-UBOT
+*   [RENDY](https://github.com/Randi356/Vegeta-Userbot) - VEGETA-USERBOT
+*   [SAYONARA](https://github.com/krisnadiwangga/Sayonara-Userbot04) - SAYONARA-USERBOT
  
 # Userbot🔥
 * - JANGAN LUPA KLICK STARS 🤗
