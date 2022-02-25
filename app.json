@@ -102,7 +102,7 @@
       "required": true
     },
     "UPSTREAM_REPO_BRANCH": {
-      "description": "DON'T CHANGE HERE.",
+      "description": "Sayonara-Userbot or Vegeta-Userbot1.",
       "value": "Sayonara-Userbot",
       "required": true
     },
