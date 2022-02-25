@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/Krisnadiwangga/Sayonara-Userbot.",
   "telegram": "https://t.me/Sayonara_nih",
-  "success_url": "https://t.me/gsahmanja",
+  "success_url": "https://t.me/ErzaSupport",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -99,6 +99,11 @@
     "LOGSPAMMER": {
       "description": "Set this to True in case you want the error logs to be stored in the userbot log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
       "value": "True",
+      "required": true
+    },
+    "UPSTREAM_REPO_BRANCH": {
+      "description": "DON'T CHANGE HERE.",
+      "value": "Sayonara-Userbot",
       "required": true
     },
     "BOT_TOKEN": {
