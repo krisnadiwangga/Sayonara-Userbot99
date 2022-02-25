@@ -1,7 +1,6 @@
 # OWN MY CODE RENDY
 # Credits Rendy
-#Dev Sayonara
-# from htpps://github.com/krisnadiwangga/Sayonara-Userbot
+# from htpps://github.com/Randi356/Vegeta-Userbot
 
 """ Userbot module containing commands related to the \
     Information Superhighway (yes, Internet). """
@@ -14,7 +13,6 @@ import redis
 from datetime import datetime
 
 from userbot import (
-    CMD_HELP, 
     DEVS, 
     StartTime,
 )
@@ -29,6 +27,18 @@ cping = [
     "**Hadir speed** `999.999` ",
     "**Hadir boosted** `568.938` ",
     "**Hadir pingers power** `789.669` ",
+]
+
+brb = [
+    "**went AFK Now!** ",
+    "**punch owner AFK!** ",
+    "**why AFK idiot!** ",
+]
+
+afk = [
+    "**Owo offline AFK**! ",
+    "**Last seen a long time ago**! ",
+    "**fucking AFK!** ",
 ]
 
 async def get_readable_time(seconds: int) -> str:
@@ -61,3 +71,12 @@ async def get_readable_time(seconds: int) -> str:
 @register(incoming=True, from_users=DEVS, pattern=r"^.cping$")
 async def _(rendy):
     await rendy.reply(random.choice(cping))
+    
+
+@register(incoming=True, from_users=DEVS, pattern=r"^brb$")
+async def _(rendy):
+    await rendy.reply(random.choice(brb))
+                      
+@register(incoming=True, from_users=DEVS, pattern=r"^afk$")
+async def _(rendy):
+    await rendy.reply(random.choice(afk))
