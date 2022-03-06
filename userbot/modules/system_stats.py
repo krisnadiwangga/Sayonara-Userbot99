@@ -315,8 +315,8 @@ async def redis(alive):
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
         f"┣  `GitHub   :` [Git](https://github.com/krisnadiwangga/Sayonara-Userbot ) \n"
-        f"┣  `Support  :` [Groups](https://t.me/SayonaraSupport) \n"
-        f"┣  `Owner    :` [OWNER](https://t.me/Sayonara_banh) \n"
+        f"┣  `Support  :` [Join group](https://t.me/SayonaraSupport) \n"
+        f"┣  `Owner    :` [Sayonara](https://t.me/Sayonara_banh) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
