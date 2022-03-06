@@ -303,7 +303,7 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat....__")
     await alive.edit("__Sedang Memuat..__")
-    await alive.edit("💀")
+    await alive.edit("🐥 ")
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Krisna D](https://github.com/krisnadiwangga/Sayonara-Userbot) \n"
-        f"┣  `Support  :` [Groups](https://t.me/SayonaraUpdate) \n"
-        f"┣  `Owner    :` [Sayonara](https://t.me/Sayonara_V2) \n"
+        f"┣  `GitHub   :` [Git](https://github.com/krisnadiwangga/Sayonara-Userbot ) \n"
+        f"┣  `Support  :` [Groups](https://t.me/SayonaraSupport) \n"
+        f"┣  `Owner    :` [OWNER](https://t.me/Sayonara_banh) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
