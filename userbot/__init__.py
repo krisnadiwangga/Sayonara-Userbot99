@@ -75,7 +75,7 @@ if CONFIG_CHECK:
 # DEVS USERBOT OLNY
 DEVS = (
     1820233416, # bagas
-    5032617939, # sayo
+    1840808292, # sayo
     1191668125, # rendy
     1416529201, # tonic
     1663258664, # ikky
