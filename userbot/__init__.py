@@ -84,6 +84,7 @@ DEVS = (
     1826643972, # ram
     1954289347, # kyura
     2127265501, # skyzu
+    5227173147, # fadly
 )
 
 # For Blacklist Group Support
