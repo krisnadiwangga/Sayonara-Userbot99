@@ -28,7 +28,7 @@
       "required": true
      },
      "STRING_SESSION": {
-      "description": "Ambil String Session di link https://t.me/githubxsvshacker/602.",
+      "description": "Ambil String Session di link @VegetaSessionBot",
       "required": true
     },
     "HEROKU_APP_NAME": {
