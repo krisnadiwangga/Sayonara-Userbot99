@@ -1,65 +1,41 @@
 # 🍀 © @tofik_dn
 # ⚠️ Do not remove credits
 
-import requests
+
+import random
 
 from userbot import CMD_HELP
 from userbot.events import register
+from userbot import DEFAULTUSER
+from telethon.tl.types import InputMessagesFilterVideo
+from telethon.tl.types import InputMessagesFilterVoice
+from telethon.tl.types import InputMessagesFilterPhotos
 
 
-@register(outgoing=True, pattern=r"^\.asupan$")
+@register(outgoing=True, pattern=r"^\.meme$")
 async def _(event):
     try:
-        response = requests.get("https://api-tede.herokuapp.com/api/asupan/ptl").json()
-        await event.client.send_file(event.chat_id, response["url"])
+        asupannya = [
+            asupan
+            async for asupan in event.client.iter_messages(
+                "@VegetaVideoPack", filter=InputMessagesFilterVideo
+            )
+        ]
+        kontol = await event.client.get_me()
+        await event.client.send_file(
+            event.chat_id,
+            file=random.choice(asupannya),
+            caption=f"Made by [{DEFAULTUSER}](tg://user?id={kontol.id})",
+        )
         await event.delete()
     except Exception:
-        await event.edit("**Tidak bisa menemukan video asupan.**")
-
-
-@register(outgoing=True, pattern=r"^\.wibu$")
-async def _(event):
-    try:
-        response = requests.get("https://api-tede.herokuapp.com/api/asupan/wibu").json()
-        await event.client.send_file(event.chat_id, response["url"])
-        await event.delete()
-    except Exception:
-        await event.edit("**Tidak bisa menemukan video wibu.**")
-
-
-@register(outgoing=True, pattern=r"^\.chika$")
-async def _(event):
-    try:
-        response = requests.get("https://api-tede.herokuapp.com/api/chika").json()
-        await event.client.send_file(event.chat_id, response["url"])
-        await event.delete()
-    except Exception:
-        await event.edit("**Tidak bisa menemukan video chikakiku.**")
-
-
-@register(outgoing=True, pattern=r"^\.bocil$")
-async def _(event):
-    try:
-        response = requests.get(
-            "https://api-alphabot.herokuapp.com/api/asupan/bocil?apikey=Alphabot"
-        ).json()
-        await event.client.send_file(event.chat_id, response["result"])
-        await event.delete()
-    except Exception:
-        await event.edit("**Tidak bisa menemukan video asupan bocil.**")
-
+        await event.edit("Tidak bisa menemukan video asupan.")
 
 CMD_HELP.update(
     {
         "asupan": "**Plugin : **`asupan`\
-        \n\n  •  **Syntax :** `.asupan`\
-        \n  •  **Function : **Untuk Mengirim video asupan secara random.\
-        \n\n  •  **Syntax :** `.wibu`\
-        \n  •  **Function : **Untuk Mengirim video wibu secara random.\
-        \n\n  •  **Syntax :** `.chika`\
-        \n  •  **Function : **Untuk Mengirim video chikakiku secara random.\
-        \n\n  •  **Syntax :** `.bocil`\
-        \n  •  **Function : **Untuk Mengirim video bocil secara random.\
+        \n\n  •  **Syntax :** `.meme`\
+        \n  •  **Function : **Untuk Mengirim video memes secara random.\
     "
     }
 )
