@@ -3,7 +3,7 @@ FROM xluxz/geezproject:buster
 # Sayonara-Userbot
 # Sayonara
 
-RUN git clone -b Sayonara-Userbot https://github.com/krisnadiwangga/Sayonara-Userbot /root/userbot
+RUN git clone -b Sayonara-Userbot https://github.com/krisnadiwangga/Sayonara-Userbot99 /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
