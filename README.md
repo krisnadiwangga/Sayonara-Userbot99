@@ -30,7 +30,7 @@
 ### AMBIL STRING DI BAWAH INI:
 
 ##
-[![SAYONARA-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@Randi356/StringSession-1#main.py)
+[![SAYONARA-USERBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@Randi356/Vegeta-String)
 ##
   
   # Heroku
