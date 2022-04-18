@@ -43,8 +43,8 @@
   
   
   # MODULES PLUGINS UPDATES🌹
-```
-`HOW TO ADD MODULES PLUGIN COMMAD`
+```.py
+'HOW TO ADD MODULES PLUGIN COMMAD'
 
 @register(outgoing=True, pattern='^.hello(?: |$)(.*)')
 async def typewriter(typew):
