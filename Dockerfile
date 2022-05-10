@@ -1,6 +1,6 @@
 # Using Python Slim-Buster
 FROM hackinguserbot/rendyprojects:buster
-# credit from @FFmpegNotInsltalled
+# credit from @FFmpegNotInstalled
 # Sayonara-Userbot
 # Sayonara
 
